@@ -1007,9 +1007,9 @@ function main() {
     const myTeam = new PokemonRandomizer("rse");
     myTeam.availablePokemon = data;
     myTeam.filterByVersion("emerald");
-    myTeam.filterByDifficulty("easy");
-    myTeam.filterByType("fire");
-    myTeam.selectRandomTeam(4);
+    myTeam.filterByDifficulty("normal");
+    myTeam.filterByType("dragon");
+    myTeam.selectRandomTeam(6);
     console.log(myTeam);
 }
 

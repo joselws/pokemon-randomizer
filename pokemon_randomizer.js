@@ -85,11 +85,6 @@ class PokemonRandomizer {
     }
 
     selectRandomTeam(teamSize) {
-        // add starter pokemon
-        // account for game starters
-        // account for eeveelutions
-        // account for fossils
-
         this.selectedPokemon = [];
 
         if (teamSize >= this.availablePokemon.length) {
@@ -97,9 +92,12 @@ class PokemonRandomizer {
             return
         }
 
-        // const starterPokemons = this.availablePokemon.filter(pokemon => {
-        //     return pokemon.isPossibleStarter;
-        // });
+        const starterPokemons = this.availablePokemon.filter(pokemon => {
+            return pokemon.isPossibleStarter;
+        });
+        let randomStarterIndex = Math.floor(Math.random() * starterPokemons.length);
+        let rolledStarterPokemon = starterPokemons[randomStarterIndex];
+        this.addPokemonToTeam(rolledStarterPokemon);
 
         while(this.selectedPokemon.length < teamSize) {
             let randomIndex = Math.floor(Math.random() * this.availablePokemon.length);
