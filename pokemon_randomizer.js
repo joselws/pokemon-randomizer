@@ -27,6 +27,7 @@ class PokemonRandomizer {
             const randomIndex = Math.floor(Math.random() * options.length);
             difficulty = options[randomIndex];
         }
+        console.log("selected difficulty", difficulty)
         switch (difficulty) {
             case "veryEasy":
                 this.availablePokemon = this.availablePokemon.filter(pokemon => {
@@ -77,26 +78,60 @@ class PokemonRandomizer {
             const randomIndex = Math.floor(Math.random() * types.length);
             type = types[randomIndex];
         }
+        console.log("selected type", type)
         this.availablePokemon = this.availablePokemon.filter(pokemon => {
             return pokemon.types.includes(type)
         });
     }
 
     selectRandomTeam(teamSize) {
+        // add starter pokemon
+        // account for game starters
+        // account for eeveelutions
+        // account for fossils
+
         this.selectedPokemon = [];
 
-        if (teamSize > this.availablePokemon.length) {
+        if (teamSize >= this.availablePokemon.length) {
             this.selectedPokemon = this.availablePokemon
             return
         }
 
+        // const starterPokemons = this.availablePokemon.filter(pokemon => {
+        //     return pokemon.isPossibleStarter;
+        // });
+
         while(this.selectedPokemon.length < teamSize) {
             let randomIndex = Math.floor(Math.random() * this.availablePokemon.length);
-            rolledPokemon = this.availablePokemon[randomIndex];
-            this.selectedPokemon.push(rolledPokemon);
-            this.availablePokemon = this.availablePokemon.filter(pokemon => {
-                return pokemon.name !== rolledPokemon.name;
-            });
+            let rolledPokemon = this.availablePokemon[randomIndex];
+            this.addPokemonToTeam(rolledPokemon);
         }
     }
+
+    addPokemonToTeam(newPokemon) {
+        this.selectedPokemon.push(newPokemon);
+        if (newPokemon.isGameStarter) {
+            this.filterByCustomDataAttribute("isGameStarter");
+        } else if (newPokemon.isEeveelution) {
+            this.filterByCustomDataAttribute("isEeveelution");
+        } else if (newPokemon.isFossil) {
+            this.filterByCustomDataAttribute("isFossil");
+        } else {
+            this.removePokemonFromPool(newPokemon);
+        }
+    }
+
+    filterByCustomDataAttribute(attribute) {
+        this.availablePokemon = this.availablePokemon.filter(pokemon => {
+            return !pokemon[attribute];
+        });
+    }
+
+    removePokemonFromPool(pokemonToRemove) {
+        this.availablePokemon = this.availablePokemon.filter(pokemon => {
+            return pokemon.name !== pokemonToRemove.name;
+        });
+    }
 }
+
+module.exports = PokemonRandomizer;
