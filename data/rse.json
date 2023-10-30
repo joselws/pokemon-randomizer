@@ -71,7 +71,7 @@
     },
     {
         "name": "ludicolo",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["sapphire", "emerald"],
         "types": ["grass", "water"],
         "rating": "good",
         "isPossibleStarter": true,
@@ -81,7 +81,7 @@
     },
     {
         "name": "shiftry",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["ruby", "emerald"],
         "types": ["grass", "dark"],
         "rating": "normal",
         "isPossibleStarter": true,
@@ -121,7 +121,7 @@
     },
     {
         "name": "masquerain",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["ruby", "sapphire"],
         "types": ["bug", "flying"],
         "rating": "bad",
         "isPossibleStarter": true,
@@ -291,7 +291,7 @@
     },
     {
         "name": "sableye",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["sapphire", "emerald"],
         "types": ["dark", "ghost"],
         "rating": "normal",
         "isPossibleStarter": true,
@@ -311,7 +311,7 @@
     },
     {
         "name": "mawile",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["ruby", "emerald"],
         "types": ["steel"],
         "rating": "normal",
         "isPossibleStarter": true,
@@ -331,7 +331,7 @@
     },
     {
         "name": "medicham",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["ruby", "sapphire"],
         "types": ["fighting", "psychic"],
         "rating": "normal",
         "isPossibleStarter": false,
@@ -441,7 +441,7 @@
     },
     {
         "name": "roselia",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["ruby", "sapphire"],
         "types": ["grass", "poison"],
         "rating": "normal",
         "isPossibleStarter": false,
@@ -601,7 +601,7 @@
     },
     {
         "name": "zangoose",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["ruby"],
         "types": ["normal"],
         "rating": "normal",
         "isPossibleStarter": false,
@@ -611,7 +611,7 @@
     },
     {
         "name": "seviper",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["sapphire", "emerald"],
         "types": ["poison"],
         "rating": "normal",
         "isPossibleStarter": false,
@@ -621,7 +621,7 @@
     },
     {
         "name": "lunatone",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["sapphire"],
         "types": ["psychic", "rock"],
         "rating": "normal",
         "isPossibleStarter": false,
@@ -631,7 +631,7 @@
     },
     {
         "name": "solrock",
-        "games": ["ruby", "sapphire", "emerald"],
+        "games": ["ruby", "emerald"],
         "types": ["psychic", "rock"],
         "rating": "normal",
         "isPossibleStarter": false,
