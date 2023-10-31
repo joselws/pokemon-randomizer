@@ -2,6 +2,7 @@ export class PokemonRandomizer {
     constructor() {
         this.availablePokemon = [];
         this.selectedPokemon = [];
+        this.gameVersion = ""
     }
 
     async readPokemonFromFile(game) {
@@ -15,6 +16,7 @@ export class PokemonRandomizer {
     }
 
     filterByVersion(gameVersion) {
+        this.gameVersion = gameVersion;
         this.availablePokemon = this.availablePokemon.filter(pokemon => {
             return pokemon.games.includes(gameVersion)
         });
@@ -105,7 +107,7 @@ export class PokemonRandomizer {
 
     addPokemonToTeam(newPokemon) {
         this.selectedPokemon.push(newPokemon);
-        if (newPokemon.isGameStarter) {
+        if (newPokemon.isGameStarter && this.gameVersion !== "yellow") {
             this.filterByCustomDataAttribute("isGameStarter");
         } else if (newPokemon.isEeveelution) {
             this.filterByCustomDataAttribute("isEeveelution");
