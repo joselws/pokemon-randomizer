@@ -17,3 +17,8 @@ form {
 input, select {
     margin: 0px 10px;
 }
+
+#select-type-section {
+    display: none;
+}
+
