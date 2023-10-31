@@ -1,3 +1,5 @@
+import { PokemonRandomizer } from "./pokemon_randomizer.js";
+
 const mainForm = document.querySelector("#main-form");
 const gameSelect = document.querySelector("#game-select");
 const versionSelect = document.querySelector("#version-select");
@@ -7,8 +9,17 @@ const selectTypeSection = document.querySelector("#select-type-section");
 const typeSelect = document.querySelector("#type-select");
 const teamSize = document.querySelector("#team-size");
 
-mainForm.addEventListener("submit", event => {
+
+mainForm.addEventListener("submit", async (event) => {
     event.preventDefault();
+    const myTeam = new PokemonRandomizer()
+    await myTeam.readPokemonFromFile(gameSelect.value);
+    myTeam.filterByVersion(versionSelect.value);
+    myTeam.filterByDifficulty(difficultySelect.value);
+    if (isMonotypeChallenge()) {
+        myTeam.filterByType(typeSelect.value);
+    }
+    myTeam.selectRandomTeam(Number(teamSize.value));
 });
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -62,10 +73,18 @@ function radioChangeEvent() {
 }
 
 function getRadioValue() {
-    for (radioInput of monotypeInput) {
+    for (let radioInput of monotypeInput) {
         if (!radioInput.checked) {
             continue
         }
         return radioInput.value
     }
+}
+
+function isMonotypeChallenge() {
+    const radioValue = getRadioValue();
+    if (radioValue === "yes") {
+        return true;
+    }
+    return false;
 }

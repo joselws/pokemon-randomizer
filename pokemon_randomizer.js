@@ -1,6 +1,5 @@
-class PokemonRandomizer {
-    constructor(gameName) {
-        this.gameName = gameName;
+export class PokemonRandomizer {
+    constructor() {
         this.availablePokemon = [];
         this.selectedPokemon = [];
     }
@@ -132,4 +131,4 @@ class PokemonRandomizer {
     }
 }
 
-module.exports = PokemonRandomizer;
+// module.exports = PokemonRandomizer;
