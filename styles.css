@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.form-section {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+}
+
+input, select {
+    margin: 0px 10px;
+}
