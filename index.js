@@ -57,11 +57,17 @@ document.addEventListener("DOMContentLoaded", () => {
     attachChangeEventToRadio();
 });
 
+gameSelect.addEventListener("change", () => {
+    populateVersionSelect(gameSelect.value);
+});
+
 function populateVersionSelect(game) {
     emptyVersionSelect();
     let versions = []
     if (game === "rse") {
         versions = ["ruby", "sapphire", "emerald"]
+    } else if (game === "gsc") {
+        versions = ["gold", "silver", "crystal"]
     }
     versions.forEach(version => {
         let newVersionOption = createVersionOption(version);

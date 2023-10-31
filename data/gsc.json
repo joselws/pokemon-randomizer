@@ -90,16 +90,6 @@
         "isFossil": false
     },
     {
-        "name": "",
-        "games": ["gold", "silver", "crystal"],
-        "types": [""],
-        "rating": "",
-        "isPossibleStarter": false,
-        "isGameStarter": false,
-        "isEeveelution": false,
-        "isFossil": false
-    },
-    {
         "name": "butterfree",
         "games": ["gold", "silver", "crystal"],
         "types": ["flying", "bug"],
