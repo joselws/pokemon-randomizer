@@ -1,0 +1,812 @@
+[
+    {
+        "name": "charizard",
+        "games": ["red", "blue", "yellow"],
+        "types": ["flying", "fire"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": true,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "venusaur",
+        "games": ["red", "blue", "yellow"],
+        "types": ["grass", "poison"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": true,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "blastoise",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": true,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "butterfree",
+        "games": ["red", "blue", "yellow"],
+        "types": ["flying", "bug"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "beedrill",
+        "games": ["red", "blue"],
+        "types": ["bug", "poison"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "pidgeot",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal", "flying"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "raticate",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "fearow",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal", "flying"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "arbok",
+        "games": ["red"],
+        "types": ["poison"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "pikachu",
+        "games": ["red", "blue", "yellow"],
+        "types": ["electric"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "raichu",
+        "games": ["red", "blue"],
+        "types": ["electric"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "sandslash",
+        "games": ["blue", "yellow"],
+        "types": ["ground"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "nidoqueen",
+        "games": ["red", "blue", "yellow"],
+        "types": ["poison", "ground"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "nidoking",
+        "games": ["red", "blue", "yellow"],
+        "types": ["poison", "ground"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "clefable",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "ninetales",
+        "games": ["red", "yellow"],
+        "types": ["fire"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "wigglytuff",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "golbat",
+        "games": ["red", "blue", "yellow"],
+        "types": ["flying", "poison"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "vileplume",
+        "games": ["red", "blue", "yellow"],
+        "types": ["poison", "grass"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "parasect",
+        "games": ["red", "blue", "yellow"],
+        "types": ["grass", "bug"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "venomoth",
+        "games": ["red", "blue", "yellow"],
+        "types": ["poison", "bug"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "dugtrio",
+        "games": ["red", "blue", "yellow"],
+        "types": ["ground"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "persian",
+        "games": ["blue"],
+        "types": ["normal"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "golduck",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "primeape",
+        "games": ["red", "yellow"],
+        "types": ["fighting"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "arcanine",
+        "games": ["red", "blue", "yellow"],
+        "types": ["fire"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "poliwrath",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water", "fighting"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "kadabra",
+        "games": ["red", "blue", "yellow"],
+        "types": ["psychic"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "machoke",
+        "games": ["red", "blue", "yellow"],
+        "types": ["fighting"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "victreebel",
+        "games": ["yellow"],
+        "types": ["grass", "poison"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "tentacruel",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water", "poison"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "graveler",
+        "games": ["red", "blue", "yellow"],
+        "types": ["rock", "ground"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "rapidash",
+        "games": ["red", "blue", "yellow"],
+        "types": ["fire"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "slowbro",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water", "psychic"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "magneton",
+        "games": ["red", "blue", "yellow"],
+        "types": ["electric"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "farfetch'd",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal", "flying"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "dodrio",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal", "flying"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "dewgong",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water", "ice"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "muk",
+        "games": ["red", "blue", "yellow"],
+        "types": ["poison"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "cloyster",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water", "ice"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "haunter",
+        "games": ["red", "blue", "yellow"],
+        "types": ["ghost", "poison"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "onix",
+        "games": ["red", "blue", "yellow"],
+        "types": ["rock", "ground"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "hypno",
+        "games": ["red", "blue", "yellow"],
+        "types": ["psychic"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "kingler",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "electrode",
+        "games": ["red", "blue", "yellow"],
+        "types": ["electric"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "exeggutor",
+        "games": ["red", "blue", "yellow"],
+        "types": ["grass", "psychic"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "marowak",
+        "games": ["red", "blue", "yellow"],
+        "types": ["ground"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "hitmonlee",
+        "games": ["red", "blue", "yellow"],
+        "types": ["fighting"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "hitmonchan",
+        "games": ["red", "blue", "yellow"],
+        "types": ["fighting"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "lickitung",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "weezing",
+        "games": ["red", "blue"],
+        "types": ["poison"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "rhydon",
+        "games": ["red", "blue", "yellow"],
+        "types": ["rock", "ground"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "chansey",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "tangela",
+        "games": ["red", "blue", "yellow"],
+        "types": ["grass"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "kangaskhan",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "seadra",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "seaking",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "starmie",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water", "psychic"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "mr. mime",
+        "games": ["red", "blue", "yellow"],
+        "types": ["psychic"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "scyther",
+        "games": ["red", "blue", "yellow"],
+        "types": ["bug", "flying"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "jynx",
+        "games": ["red", "blue"],
+        "types": ["ice", "psychic"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "magmar",
+        "games": ["blue"],
+        "types": ["fire"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "electabuzz",
+        "games": ["red"],
+        "types": ["electric"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "pinsir",
+        "games": ["blue", "yellow"],
+        "types": ["bug"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "tauros",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "gyarados",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water", "flying"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "lapras",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water", "ice"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "ditto",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "vaporeon",
+        "games": ["red", "blue", "yellow"],
+        "types": ["water"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": true,
+        "isFossil": false
+    },
+    {
+        "name": "flareon",
+        "games": ["red", "blue", "yellow"],
+        "types": ["fire"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": true,
+        "isFossil": false
+    },
+    {
+        "name": "jolteon",
+        "games": ["red", "blue", "yellow"],
+        "types": ["electric"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": true,
+        "isFossil": false
+    },
+    {
+        "name": "porygon",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "omastar",
+        "games": ["red", "blue", "yellow"],
+        "types": ["rock", "water"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": true
+    },
+    {
+        "name": "kabutops",
+        "games": ["red", "blue", "yellow"],
+        "types": ["rock", "water"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": true
+    },
+    {
+        "name": "aerodactyl",
+        "games": ["red", "blue", "yellow"],
+        "types": ["rock", "flying"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "snorlax",
+        "games": ["red", "blue", "yellow"],
+        "types": ["normal"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "articuno",
+        "games": ["red", "blue", "yellow"],
+        "types": ["flying", "ice"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "zapdos",
+        "games": ["red", "blue", "yellow"],
+        "types": ["flying", "electric"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "moltres",
+        "games": ["red", "blue", "yellow"],
+        "types": ["flying", "fire"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "dragonite",
+        "games": ["red", "blue", "yellow"],
+        "types": ["flying", "dragon"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "mew",
+        "games": ["red", "blue", "yellow"],
+        "types": ["psychic"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    }
+]
