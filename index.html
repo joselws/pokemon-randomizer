@@ -14,7 +14,7 @@
                 <!-- Currently not available -->
                 <!-- <option>Red, Blue, and Yellow</option> -->
                 <!-- <option>Gold, Silver, and Crystal</option> -->
-                <option class="game-select-option">Ruby, Sapphire, Emerald</option>
+                <option class="game-select-option" value="rse">Ruby, Sapphire, Emerald</option>
             </select>
         </div>
 
@@ -26,12 +26,12 @@
         <div class="form-section" id="select-difficulty-section">
             <label for="difficulty-select">Select difficulty</label>
             <select id="difficulty-select">
-                <option class="difficulty-select-option">Very easy</option>
-                <option class="difficulty-select-option">Easy</option>
-                <option class="difficulty-select-option">Normal</option>
-                <option class="difficulty-select-option">Hard</option>
-                <option class="difficulty-select-option">Very Hard</option>
-                <option class="difficulty-select-option">Random</option>
+                <option class="difficulty-select-option" value="veryEasy">Very easy</option>
+                <option class="difficulty-select-option" value="easy">Easy</option>
+                <option class="difficulty-select-option" value="normal">Normal</option>
+                <option class="difficulty-select-option" value="hard">Hard</option>
+                <option class="difficulty-select-option" value="veryHard">Very Hard</option>
+                <option class="difficulty-select-option" value="random">Random</option>
             </select>
         </div>
         
@@ -46,30 +46,30 @@
         <div class="form-section" id="select-type-section">
             <label for="type-select">Select Pokémon Type</label>
             <select id="type-select">
-                <option class="type-select-option">Normal</option>
-                <option class="type-select-option">Fire</option>
-                <option class="type-select-option">Water</option>
-                <option class="type-select-option">Grass</option>
-                <option class="type-select-option">Electric</option>
-                <option class="type-select-option">Ice</option>
-                <option class="type-select-option">Fighting</option>
-                <option class="type-select-option">Poison</option>
-                <option class="type-select-option">Ground</option>
-                <option class="type-select-option">Flying</option>
-                <option class="type-select-option">Psychic</option>
-                <option class="type-select-option">Bug</option>
-                <option class="type-select-option">Rock</option>
-                <option class="type-select-option">Ghost</option>
-                <option class="type-select-option">Dragon</option>
-                <option class="type-select-option">Dark</option>
-                <option class="type-select-option">Steel</option>
-                <option class="type-select-option">Random</option>
+                <option class="type-select-option" value="normal">Normal</option>
+                <option class="type-select-option" value="fire">Fire</option>
+                <option class="type-select-option" value="water">Water</option>
+                <option class="type-select-option" value="grass">Grass</option>
+                <option class="type-select-option" value="electric">Electric</option>
+                <option class="type-select-option" value="ice">Ice</option>
+                <option class="type-select-option" value="fighting">Fighting</option>
+                <option class="type-select-option" value="poison">Poison</option>
+                <option class="type-select-option" value="ground">Ground</option>
+                <option class="type-select-option" value="flying">Flying</option>
+                <option class="type-select-option" value="psychic">Psychic</option>
+                <option class="type-select-option" value="bug">Bug</option>
+                <option class="type-select-option" value="rock">Rock</option>
+                <option class="type-select-option" value="ghost">Ghost</option>
+                <option class="type-select-option" value="dragon">Dragon</option>
+                <option class="type-select-option" value="dark">Dark</option>
+                <option class="type-select-option" value="steel">Steel</option>
+                <option class="type-select-option" value="random">Random</option>
             </select>
         </div>
 
         <div class="form-section" id="select-team-size-section">
             <label for="team-size">Select number of Pokémon</label>
-            <input id="team-size" type="number" min="1" max="6">
+            <input id="team-size" type="number" min="1" max="6" default="3">
         </div>
 
         <div class="form-section" id="submit">
