@@ -1,4 +1,6 @@
-[
+const PokemonRandomizer = require("./pokemon_randomizer.js");
+
+data = [
     {
         "name": "sceptile",
         "games": ["ruby", "sapphire", "emerald"],
@@ -83,7 +85,7 @@
         "name": "shiftry",
         "games": ["ruby", "emerald"],
         "types": ["grass", "dark"],
-        "rating": "bad",
+        "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
         "isEeveelution": false,
@@ -133,7 +135,7 @@
         "name": "breloom",
         "games": ["ruby", "sapphire", "emerald"],
         "types": ["grass", "fighting"],
-        "rating": "bad",
+        "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
         "isEeveelution": false,
@@ -1000,3 +1002,26 @@
         "isFossil": false
     }
 ]
+
+function main() {
+    const myTeam = new PokemonRandomizer("rse");
+    myTeam.availablePokemon = data;
+    // myTeam.filterByVersion("emerald");
+    // myTeam.filterByDifficulty("hard");
+    // myTeam.filterByType("water");
+    // myTeam.selectRandomTeam(4);
+
+    goodPokemon = myTeam.availablePokemon.filter(pokemon => pokemon.rating === "good")
+    normalPokemon = myTeam.availablePokemon.filter(pokemon => pokemon.rating === "normal")
+    badPokemon = myTeam.availablePokemon.filter(pokemon => pokemon.rating === "bad")
+    console.log("Good pokemon:", goodPokemon.length)
+    goodPokemon.forEach(pokemon => console.log(pokemon.name));
+    
+    console.log("Normal pokemon:", normalPokemon.length)
+    normalPokemon.forEach(pokemon => console.log(pokemon.name));
+
+    console.log("Bad Pokemon:", badPokemon.length)
+    badPokemon.forEach(pokemon => console.log(pokemon.name));
+}
+
+main();
