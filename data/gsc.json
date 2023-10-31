@@ -1,0 +1,1262 @@
+[
+    {
+        "name": "meganium",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["grass"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": true,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "typhlosion",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fire"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": true,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "feraligatr",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": true,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "pidgeot",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal", "flying"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "fearow",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal", "flying"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "noctowl",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal", "flying"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "raticate",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "furret",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "raichu",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["electric"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "",
+        "games": ["gold", "silver", "crystal"],
+        "types": [""],
+        "rating": "",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "butterfree",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["flying", "bug"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "beedrill",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["bug", "poison"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "ledian",
+        "games": ["silver", "crystal"],
+        "types": ["bug", "flying"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "ariados",
+        "games": ["gold", "crystal"],
+        "types": ["bug", "poison"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "graveler",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["rock", "ground"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "crobat",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["flying", "poison"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "wigglytuff",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "clefable",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "togetic",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal", "flying"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "sandslash",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["ground"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "arbok",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["poison"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "dunsparce",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "ampharos",
+        "games": ["gold", "silver"],
+        "types": ["electric"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "quagsire",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["ground", "water"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "haunter",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["ghost", "poison"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "unown",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["psychic"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "onix",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["rock", "ground"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "victreebel",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["grass", "poison"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "jumpluff",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["grass", "flying"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "parasect",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["bug", "grass"],
+        "rating": "bad",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "poliwrath",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "fighting"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "gyarados",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "flying"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "seaking",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "slowbro",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "psychic"],
+        "rating": "good",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "vileplume",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["grass", "poison"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "bellossom",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["grass"],
+        "rating": "normal",
+        "isPossibleStarter": true,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "hypno",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["psychic"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "kadabra",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["psychic"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "ditto",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "forretress",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["bug", "steel"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "nidoqueen",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["poison", "ground"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "nidoking",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["poison", "ground"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "yanma",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["bug", "flying"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "sunflora",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["grass"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "exeggutor",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["grass", "psychic"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "sudowoodo",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["rock"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "wobbuffet",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["psychic"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "venomoth",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["bug", "poison"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "scyther",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["bug", "flying"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "pinsir",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["bug"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "heracross",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["bug", "fighting"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "weezing",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["poison"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "muk",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["poison"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "magneton",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["steel", "electric"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "electrode",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["electric"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "aipom",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "granbull",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "ninetales",
+        "games": ["silver"],
+        "types": ["fire"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "arcanine",
+        "games": ["gold", "crystal"],
+        "types": ["fire"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "stantler",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "azumarill",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "dugtrio",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["ground"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "primeape",
+        "games": ["gold"],
+        "types": ["fighting"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "persian",
+        "games": ["silver", "crystal"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "golduck",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "machoke",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fighting"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "hitmonlee",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fighting"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "hitmonchan",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fighting"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "hitmontop",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fighting"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "girafarig",
+        "games": ["gold", "silver"],
+        "types": ["normal", "psychic"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "tauros",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "miltank",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "magmar",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fire"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "jynx",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["ice", "psychic"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "electabuzz",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["electric"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "mr. mime",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["psychic"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "smeargle",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "farfetch'd",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["flying", "normal"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "xatu",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["flying", "psychic"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "qwilfish",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "poison"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "tentacruel",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "poison"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "kingler",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "shuckle",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["bug", "rock"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "starmie",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "psychic"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "cloyster",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "ice"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "corsola",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "rock"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "octillery",
+        "games": ["gold", "silver"],
+        "types": ["water"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "lanturn",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "electric"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "dewgong",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "ice"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "lickitung",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "tangela",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["grass"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "vaporeon",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": true,
+        "isFossil": false
+    },
+    {
+        "name": "flareon",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fire"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": true,
+        "isFossil": false
+    },
+    {
+        "name": "jolteon",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["electric"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": true,
+        "isFossil": false
+    },
+    {
+        "name": "espeon",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["psychic"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": true,
+        "isFossil": false
+    },
+    {
+        "name": "umbreon",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["dark"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": true,
+        "isFossil": false
+    },
+    {
+        "name": "seadra",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "gligar",
+        "games": ["gold", "crystal"],
+        "types": ["ground", "poison"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "delibird",
+        "games": ["silver", "crystal"],
+        "types": ["flying", "ice"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "piloswine",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["ice", "ground"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "ursaring",
+        "games": ["gold", "crystal"],
+        "types": ["normal"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "donphan",
+        "games": ["silver", "crystal"],
+        "types": ["ground"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "mantine",
+        "games": ["gold", "crystal"],
+        "types": ["water", "flying"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "skarmory",
+        "games": ["silver", "crystal"],
+        "types": ["flying", "steel"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "dodrio",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["flying", "normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "rapidash",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fire"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "marowak",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["ground"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "kangaskhan",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "rhydon",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["rock", "ground"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "murkrow",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["dark", "flying"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "houndoom",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fire", "dark"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "magcargo",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fire", "rock"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "sneasel",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["ice", "dark"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "misdreavus",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["ghost"],
+        "rating": "bad",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "porygon",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "blissey",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "lapras",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "ice"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "aerodactyl",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["rock", "flying"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "snorlax",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["normal"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "raikou",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["electric"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "entei",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["fire"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "suicune",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["water", "ice"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "dragonite",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["dragon", "flying"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "tyranitar",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["rock", "dark"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "lugia",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["flying", "psychic"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "ho-oh",
+        "games": ["gold", "silver", "crystal"],
+        "types": ["flying", "fire"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    }
+]
