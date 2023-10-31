@@ -8,10 +8,39 @@ const monotypeInput = document.querySelectorAll('input[name="monotype"]');
 const selectTypeSection = document.querySelector("#select-type-section");
 const typeSelect = document.querySelector("#type-select");
 const teamSize = document.querySelector("#team-size");
+const pokemonCards = document.querySelector("#pokemon-cards");
 
 
 mainForm.addEventListener("submit", async (event) => {
     event.preventDefault();
+    const pokemonTeam = await getRandomPokemonTeam();
+    populatePokemonCards(pokemonTeam);
+});
+
+function populatePokemonCards(pokemonTeam) {
+    emptyPokemonCards();
+    pokemonTeam.forEach(pokemon => {
+        let pokemonCard = createPokemonCard(pokemon);
+        pokemonCards.appendChild(pokemonCard);
+    });
+}
+
+function createPokemonCard(pokemonName) {
+    const div = document.createElement("div");
+    div.setAttribute("class", "pokemon-card");
+    const p = document.createElement("p");
+    p.setAttribute("class", "pokemon-name");
+    p.innerHTML = capitalizeString(pokemonName);
+    div.appendChild(p);
+    return div;
+}
+
+function emptyPokemonCards() {
+    const cards = document.querySelectorAll(".pokemon-card");
+    cards.forEach(card => card.remove())
+}
+
+async function getRandomPokemonTeam() {
     const myTeam = new PokemonRandomizer()
     await myTeam.readPokemonFromFile(gameSelect.value);
     myTeam.filterByVersion(versionSelect.value);
@@ -20,7 +49,8 @@ mainForm.addEventListener("submit", async (event) => {
         myTeam.filterByType(typeSelect.value);
     }
     myTeam.selectRandomTeam(Number(teamSize.value));
-});
+    return myTeam.selectedPokemon.map(pokemon => pokemon.name);
+}
 
 document.addEventListener("DOMContentLoaded", () => {
     populateVersionSelect(gameSelect.value);

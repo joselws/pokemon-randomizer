@@ -26,7 +26,6 @@ export class PokemonRandomizer {
             const randomIndex = Math.floor(Math.random() * options.length);
             difficulty = options[randomIndex];
         }
-        console.log("selected difficulty", difficulty)
         switch (difficulty) {
             case "veryEasy":
                 this.availablePokemon = this.availablePokemon.filter(pokemon => {
@@ -77,7 +76,6 @@ export class PokemonRandomizer {
             const randomIndex = Math.floor(Math.random() * types.length);
             type = types[randomIndex];
         }
-        console.log("selected type", type)
         this.availablePokemon = this.availablePokemon.filter(pokemon => {
             return pokemon.types.includes(type)
         });

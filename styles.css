@@ -22,3 +22,13 @@ input, select {
     display: none;
 }
 
+#pokemon-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.pokemon-card {
+    margin: auto;
+}

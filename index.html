@@ -7,76 +7,80 @@
     <title>Randomizer</title>
 </head>
 <body>
-    <h1>Pokémon Randomizer</h1>
-    <form id="main-form">
-        <div class="form-section" id="select-game-section">
-            <label>Select game</label>
-            <select id="game-select">
-                <!-- Currently not available -->
-                <!-- <option>Red, Blue, and Yellow</option> -->
-                <!-- <option>Gold, Silver, and Crystal</option> -->
-                <option class="game-select-option" value="rse">Ruby, Sapphire, Emerald</option>
-            </select>
-        </div>
+    <main>
 
-        <div class="form-section" id="select-version-section">
-            <label for="version-select">Select version</label>
-            <select id="version-select"></select>
-        </div>
-
-        <div class="form-section" id="select-difficulty-section">
-            <label for="difficulty-select">Select difficulty</label>
-            <select id="difficulty-select">
-                <option class="difficulty-select-option" value="veryEasy">Very easy</option>
-                <option class="difficulty-select-option" value="easy">Easy</option>
-                <option class="difficulty-select-option" value="normal">Normal</option>
-                <option class="difficulty-select-option" value="hard">Hard</option>
-                <option class="difficulty-select-option" value="veryHard">Very Hard</option>
-                <option class="difficulty-select-option" value="random">Random</option>
-            </select>
-        </div>
-        
-        <div class="form-section" id="want-monotype-section">
-            <p>Want a monotype challenge?</p>
-            <input id="radio-yes" type="radio" name="monotype" value="yes">
-            <label for="radio-yes">Yes</label>
-            <input id="radio-no" type="radio" name="monotype" value="no" checked>
-            <label for="radio-no">No</label>
-        </div>
-
-        <div class="form-section" id="select-type-section">
-            <label for="type-select">Select Pokémon Type</label>
-            <select id="type-select">
-                <option class="type-select-option" value="normal">Normal</option>
-                <option class="type-select-option" value="fire">Fire</option>
-                <option class="type-select-option" value="water">Water</option>
-                <option class="type-select-option" value="grass">Grass</option>
-                <option class="type-select-option" value="electric">Electric</option>
-                <option class="type-select-option" value="ice">Ice</option>
-                <option class="type-select-option" value="fighting">Fighting</option>
-                <option class="type-select-option" value="poison">Poison</option>
-                <option class="type-select-option" value="ground">Ground</option>
-                <option class="type-select-option" value="flying">Flying</option>
-                <option class="type-select-option" value="psychic">Psychic</option>
-                <option class="type-select-option" value="bug">Bug</option>
-                <option class="type-select-option" value="rock">Rock</option>
-                <option class="type-select-option" value="ghost">Ghost</option>
-                <option class="type-select-option" value="dragon">Dragon</option>
-                <option class="type-select-option" value="dark">Dark</option>
-                <option class="type-select-option" value="steel">Steel</option>
-                <option class="type-select-option" value="random">Random</option>
-            </select>
-        </div>
-
-        <div class="form-section" id="select-team-size-section">
-            <label for="team-size">Select team size</label>
-            <input id="team-size" type="number" min="1" max="6" value="3">
-        </div>
-
-        <div class="form-section" id="submit">
-            <input id="submit" type="submit" value="Get team!">
-        </div>
-    </form>
+        <h1>Pokémon Randomizer</h1>
+        <form id="main-form">
+            <div class="form-section" id="select-game-section">
+                <label>Select game</label>
+                <select id="game-select">
+                    <!-- Currently not available -->
+                    <!-- <option>Red, Blue, and Yellow</option> -->
+                    <!-- <option>Gold, Silver, and Crystal</option> -->
+                    <option class="game-select-option" value="rse">Ruby, Sapphire, Emerald</option>
+                </select>
+            </div>
+    
+            <div class="form-section" id="select-version-section">
+                <label for="version-select">Select version</label>
+                <select id="version-select"></select>
+            </div>
+    
+            <div class="form-section" id="select-difficulty-section">
+                <label for="difficulty-select">Select difficulty</label>
+                <select id="difficulty-select">
+                    <option class="difficulty-select-option" value="veryEasy">Very easy</option>
+                    <option class="difficulty-select-option" value="easy">Easy</option>
+                    <option class="difficulty-select-option" value="normal">Normal</option>
+                    <option class="difficulty-select-option" value="hard">Hard</option>
+                    <option class="difficulty-select-option" value="veryHard">Very Hard</option>
+                    <option class="difficulty-select-option" value="random">Random</option>
+                </select>
+            </div>
+            
+            <div class="form-section" id="want-monotype-section">
+                <p>Want a monotype challenge?</p>
+                <input id="radio-yes" type="radio" name="monotype" value="yes">
+                <label for="radio-yes">Yes</label>
+                <input id="radio-no" type="radio" name="monotype" value="no" checked>
+                <label for="radio-no">No</label>
+            </div>
+    
+            <div class="form-section" id="select-type-section">
+                <label for="type-select">Select Pokémon Type</label>
+                <select id="type-select">
+                    <option class="type-select-option" value="normal">Normal</option>
+                    <option class="type-select-option" value="fire">Fire</option>
+                    <option class="type-select-option" value="water">Water</option>
+                    <option class="type-select-option" value="grass">Grass</option>
+                    <option class="type-select-option" value="electric">Electric</option>
+                    <option class="type-select-option" value="ice">Ice</option>
+                    <option class="type-select-option" value="fighting">Fighting</option>
+                    <option class="type-select-option" value="poison">Poison</option>
+                    <option class="type-select-option" value="ground">Ground</option>
+                    <option class="type-select-option" value="flying">Flying</option>
+                    <option class="type-select-option" value="psychic">Psychic</option>
+                    <option class="type-select-option" value="bug">Bug</option>
+                    <option class="type-select-option" value="rock">Rock</option>
+                    <option class="type-select-option" value="ghost">Ghost</option>
+                    <option class="type-select-option" value="dragon">Dragon</option>
+                    <option class="type-select-option" value="dark">Dark</option>
+                    <option class="type-select-option" value="steel">Steel</option>
+                    <option class="type-select-option" value="random">Random</option>
+                </select>
+            </div>
+    
+            <div class="form-section" id="select-team-size-section">
+                <label for="team-size">Select team size</label>
+                <input id="team-size" type="number" min="1" max="6" value="3">
+            </div>
+    
+            <div class="form-section" id="submit">
+                <input id="submit" type="submit" value="Get team!">
+            </div>
+        </form>
+        <section id="pokemon-cards"></section>
+    </main>
     <script src="index.js" type="module"></script>
 </body>
 </html>
