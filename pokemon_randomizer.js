@@ -94,9 +94,11 @@ export class PokemonRandomizer {
         const starterPokemons = this.availablePokemon.filter(pokemon => {
             return pokemon.isPossibleStarter;
         });
-        let randomStarterIndex = Math.floor(Math.random() * starterPokemons.length);
-        let rolledStarterPokemon = starterPokemons[randomStarterIndex];
-        this.addPokemonToTeam(rolledStarterPokemon);
+        if (starterPokemons.length !== 0) {
+            let randomStarterIndex = Math.floor(Math.random() * starterPokemons.length);
+            let rolledStarterPokemon = starterPokemons[randomStarterIndex];
+            this.addPokemonToTeam(rolledStarterPokemon);
+        }
 
         while(this.selectedPokemon.length < teamSize) {
             let randomIndex = Math.floor(Math.random() * this.availablePokemon.length);
