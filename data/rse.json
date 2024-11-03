@@ -920,6 +920,26 @@
         "isFossil": false
     },
     {
+        "name": "huntail",
+        "games": [],
+        "types": ["water"],
+        "rating": "normal",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "gorebyss",
+        "games": [],
+        "types": ["water"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
         "name": "relicanth",
         "games": ["ruby", "sapphire", "emerald"],
         "types": ["water", "rock"],
@@ -965,6 +985,26 @@
         "types": ["water"],
         "rating": "normal",
         "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "salamence",
+        "games": [],
+        "types": ["flying", "dragon"],
+        "rating": "good",
+        "isPossibleStarter": false,
+        "isGameStarter": false,
+        "isEeveelution": false,
+        "isFossil": false
+    },
+    {
+        "name": "metagross",
+        "games": [],
+        "types": ["steel", "psychic"],
+        "rating": "good",
+        "isPossibleStarter": true,
         "isGameStarter": false,
         "isEeveelution": false,
         "isFossil": false

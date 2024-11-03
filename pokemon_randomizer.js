@@ -16,6 +16,9 @@ export class PokemonRandomizer {
     }
 
     filterByVersion(gameVersion) {
+        if (gameVersion === "any") {
+            return;
+        }
         this.gameVersion = gameVersion;
         this.availablePokemon = this.availablePokemon.filter(pokemon => {
             return pokemon.games.includes(gameVersion)

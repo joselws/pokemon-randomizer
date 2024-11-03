@@ -65,11 +65,11 @@ function populateVersionSelect(game) {
     emptyVersionSelect();
     let versions = []
     if (game === "rse") {
-        versions = ["ruby", "sapphire", "emerald"]
+        versions = ["any", "ruby", "sapphire", "emerald"]
     } else if (game === "gsc") {
-        versions = ["gold", "silver", "crystal"]
+        versions = ["any", "gold", "silver", "crystal"]
     } else if (game === "rby") {
-        versions = ["red", "blue", "yellow"]
+        versions = ["any", "red", "blue", "yellow"]
     }
     versions.forEach(version => {
         let newVersionOption = createVersionOption(version);
