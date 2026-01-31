@@ -1,8 +1,16 @@
 [
     {
         "name": "charizard",
-        "games": ["red", "blue", "yellow"],
-        "types": ["flying", "fire"],
+        "id": 6,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "flying",
+            "fire"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": true,
@@ -11,8 +19,16 @@
     },
     {
         "name": "venusaur",
-        "games": ["red", "blue", "yellow"],
-        "types": ["grass", "poison"],
+        "id": 3,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": true,
@@ -21,8 +37,15 @@
     },
     {
         "name": "blastoise",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water"],
+        "id": 9,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": true,
@@ -31,8 +54,16 @@
     },
     {
         "name": "butterfree",
-        "games": ["red", "blue", "yellow"],
-        "types": ["flying", "bug"],
+        "id": 12,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "flying",
+            "bug"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -41,8 +72,15 @@
     },
     {
         "name": "beedrill",
-        "games": ["red", "blue"],
-        "types": ["bug", "poison"],
+        "id": 15,
+        "games": [
+            "red",
+            "blue"
+        ],
+        "types": [
+            "bug",
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -51,8 +89,16 @@
     },
     {
         "name": "pidgeot",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal", "flying"],
+        "id": 18,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -61,8 +107,15 @@
     },
     {
         "name": "raticate",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal"],
+        "id": 20,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -71,8 +124,16 @@
     },
     {
         "name": "fearow",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal", "flying"],
+        "id": 22,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -81,8 +142,13 @@
     },
     {
         "name": "arbok",
-        "games": ["red"],
-        "types": ["poison"],
+        "id": 24,
+        "games": [
+            "red"
+        ],
+        "types": [
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -91,8 +157,15 @@
     },
     {
         "name": "pikachu",
-        "games": ["red", "blue", "yellow"],
-        "types": ["electric"],
+        "id": 25,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -101,8 +174,14 @@
     },
     {
         "name": "raichu",
-        "games": ["red", "blue"],
-        "types": ["electric"],
+        "id": 26,
+        "games": [
+            "red",
+            "blue"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -111,8 +190,14 @@
     },
     {
         "name": "sandslash",
-        "games": ["blue", "yellow"],
-        "types": ["ground"],
+        "id": 28,
+        "games": [
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "ground"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -121,8 +206,16 @@
     },
     {
         "name": "nidoqueen",
-        "games": ["red", "blue", "yellow"],
-        "types": ["poison", "ground"],
+        "id": 31,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "poison",
+            "ground"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -131,8 +224,16 @@
     },
     {
         "name": "nidoking",
-        "games": ["red", "blue", "yellow"],
-        "types": ["poison", "ground"],
+        "id": 34,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "poison",
+            "ground"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -141,8 +242,15 @@
     },
     {
         "name": "clefable",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal"],
+        "id": 36,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -151,8 +259,14 @@
     },
     {
         "name": "ninetales",
-        "games": ["red", "yellow"],
-        "types": ["fire"],
+        "id": 38,
+        "games": [
+            "red",
+            "yellow"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -161,8 +275,15 @@
     },
     {
         "name": "wigglytuff",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal"],
+        "id": 40,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -171,8 +292,16 @@
     },
     {
         "name": "golbat",
-        "games": ["red", "blue", "yellow"],
-        "types": ["flying", "poison"],
+        "id": 42,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "flying",
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -181,8 +310,16 @@
     },
     {
         "name": "vileplume",
-        "games": ["red", "blue", "yellow"],
-        "types": ["poison", "grass"],
+        "id": 45,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "poison",
+            "grass"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -191,8 +328,16 @@
     },
     {
         "name": "parasect",
-        "games": ["red", "blue", "yellow"],
-        "types": ["grass", "bug"],
+        "id": 47,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "grass",
+            "bug"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -201,8 +346,16 @@
     },
     {
         "name": "venomoth",
-        "games": ["red", "blue", "yellow"],
-        "types": ["poison", "bug"],
+        "id": 49,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "poison",
+            "bug"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -211,8 +364,15 @@
     },
     {
         "name": "dugtrio",
-        "games": ["red", "blue", "yellow"],
-        "types": ["ground"],
+        "id": 51,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "ground"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -221,8 +381,13 @@
     },
     {
         "name": "persian",
-        "games": ["blue"],
-        "types": ["normal"],
+        "id": 53,
+        "games": [
+            "blue"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -231,8 +396,15 @@
     },
     {
         "name": "golduck",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water"],
+        "id": 55,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -241,8 +413,14 @@
     },
     {
         "name": "primeape",
-        "games": ["red", "yellow"],
-        "types": ["fighting"],
+        "id": 57,
+        "games": [
+            "red",
+            "yellow"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -251,8 +429,15 @@
     },
     {
         "name": "arcanine",
-        "games": ["red", "blue", "yellow"],
-        "types": ["fire"],
+        "id": 59,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -261,8 +446,16 @@
     },
     {
         "name": "poliwrath",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water", "fighting"],
+        "id": 62,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water",
+            "fighting"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -271,8 +464,15 @@
     },
     {
         "name": "kadabra",
-        "games": ["red", "blue", "yellow"],
-        "types": ["psychic"],
+        "id": 64,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -281,8 +481,15 @@
     },
     {
         "name": "machoke",
-        "games": ["red", "blue", "yellow"],
-        "types": ["fighting"],
+        "id": 67,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -291,8 +498,14 @@
     },
     {
         "name": "victreebel",
-        "games": ["yellow"],
-        "types": ["grass", "poison"],
+        "id": 71,
+        "games": [
+            "yellow"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -301,8 +514,16 @@
     },
     {
         "name": "tentacruel",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water", "poison"],
+        "id": 73,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water",
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -311,8 +532,16 @@
     },
     {
         "name": "graveler",
-        "games": ["red", "blue", "yellow"],
-        "types": ["rock", "ground"],
+        "id": 75,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -321,8 +550,15 @@
     },
     {
         "name": "rapidash",
-        "games": ["red", "blue", "yellow"],
-        "types": ["fire"],
+        "id": 78,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -331,8 +567,16 @@
     },
     {
         "name": "slowbro",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water", "psychic"],
+        "id": 80,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -341,8 +585,15 @@
     },
     {
         "name": "magneton",
-        "games": ["red", "blue", "yellow"],
-        "types": ["electric"],
+        "id": 82,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -351,8 +602,16 @@
     },
     {
         "name": "farfetch'd",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal", "flying"],
+        "id": 83,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -361,8 +620,16 @@
     },
     {
         "name": "dodrio",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal", "flying"],
+        "id": 85,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -371,8 +638,16 @@
     },
     {
         "name": "dewgong",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water", "ice"],
+        "id": 87,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water",
+            "ice"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -381,8 +656,15 @@
     },
     {
         "name": "muk",
-        "games": ["red", "blue", "yellow"],
-        "types": ["poison"],
+        "id": 89,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -391,8 +673,16 @@
     },
     {
         "name": "cloyster",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water", "ice"],
+        "id": 91,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water",
+            "ice"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -401,8 +691,16 @@
     },
     {
         "name": "haunter",
-        "games": ["red", "blue", "yellow"],
-        "types": ["ghost", "poison"],
+        "id": 93,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "ghost",
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -411,8 +709,16 @@
     },
     {
         "name": "onix",
-        "games": ["red", "blue", "yellow"],
-        "types": ["rock", "ground"],
+        "id": 95,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -421,8 +727,15 @@
     },
     {
         "name": "hypno",
-        "games": ["red", "blue", "yellow"],
-        "types": ["psychic"],
+        "id": 97,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -431,8 +744,15 @@
     },
     {
         "name": "kingler",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water"],
+        "id": 99,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -441,8 +761,15 @@
     },
     {
         "name": "electrode",
-        "games": ["red", "blue", "yellow"],
-        "types": ["electric"],
+        "id": 101,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -451,8 +778,16 @@
     },
     {
         "name": "exeggutor",
-        "games": ["red", "blue", "yellow"],
-        "types": ["grass", "psychic"],
+        "id": 103,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "grass",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -461,8 +796,15 @@
     },
     {
         "name": "marowak",
-        "games": ["red", "blue", "yellow"],
-        "types": ["ground"],
+        "id": 105,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "ground"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -471,8 +813,15 @@
     },
     {
         "name": "hitmonlee",
-        "games": ["red", "blue", "yellow"],
-        "types": ["fighting"],
+        "id": 106,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -481,8 +830,15 @@
     },
     {
         "name": "hitmonchan",
-        "games": ["red", "blue", "yellow"],
-        "types": ["fighting"],
+        "id": 107,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -491,8 +847,15 @@
     },
     {
         "name": "lickitung",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal"],
+        "id": 108,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -501,8 +864,14 @@
     },
     {
         "name": "weezing",
-        "games": ["red", "blue"],
-        "types": ["poison"],
+        "id": 110,
+        "games": [
+            "red",
+            "blue"
+        ],
+        "types": [
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -511,8 +880,16 @@
     },
     {
         "name": "rhydon",
-        "games": ["red", "blue", "yellow"],
-        "types": ["rock", "ground"],
+        "id": 112,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -521,8 +898,15 @@
     },
     {
         "name": "chansey",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal"],
+        "id": 113,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -531,8 +915,15 @@
     },
     {
         "name": "tangela",
-        "games": ["red", "blue", "yellow"],
-        "types": ["grass"],
+        "id": 114,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "grass"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -541,8 +932,15 @@
     },
     {
         "name": "kangaskhan",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal"],
+        "id": 115,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -551,8 +949,15 @@
     },
     {
         "name": "seadra",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water"],
+        "id": 117,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -561,8 +966,15 @@
     },
     {
         "name": "seaking",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water"],
+        "id": 119,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -571,8 +983,16 @@
     },
     {
         "name": "starmie",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water", "psychic"],
+        "id": 121,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -581,8 +1001,15 @@
     },
     {
         "name": "mr. mime",
-        "games": ["red", "blue", "yellow"],
-        "types": ["psychic"],
+        "id": 122,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -591,8 +1018,16 @@
     },
     {
         "name": "scyther",
-        "games": ["red", "blue", "yellow"],
-        "types": ["bug", "flying"],
+        "id": 123,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "bug",
+            "flying"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -601,8 +1036,15 @@
     },
     {
         "name": "jynx",
-        "games": ["red", "blue"],
-        "types": ["ice", "psychic"],
+        "id": 124,
+        "games": [
+            "red",
+            "blue"
+        ],
+        "types": [
+            "ice",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -611,8 +1053,13 @@
     },
     {
         "name": "magmar",
-        "games": ["blue"],
-        "types": ["fire"],
+        "id": 126,
+        "games": [
+            "blue"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -621,8 +1068,13 @@
     },
     {
         "name": "electabuzz",
-        "games": ["red"],
-        "types": ["electric"],
+        "id": 125,
+        "games": [
+            "red"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -631,8 +1083,14 @@
     },
     {
         "name": "pinsir",
-        "games": ["blue", "yellow"],
-        "types": ["bug"],
+        "id": 127,
+        "games": [
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "bug"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -641,8 +1099,15 @@
     },
     {
         "name": "tauros",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal"],
+        "id": 128,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -651,8 +1116,16 @@
     },
     {
         "name": "gyarados",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water", "flying"],
+        "id": 130,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water",
+            "flying"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -661,8 +1134,16 @@
     },
     {
         "name": "lapras",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water", "ice"],
+        "id": 131,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water",
+            "ice"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -671,8 +1152,15 @@
     },
     {
         "name": "ditto",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal"],
+        "id": 132,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -681,8 +1169,15 @@
     },
     {
         "name": "vaporeon",
-        "games": ["red", "blue", "yellow"],
-        "types": ["water"],
+        "id": 134,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -691,8 +1186,15 @@
     },
     {
         "name": "flareon",
-        "games": ["red", "blue", "yellow"],
-        "types": ["fire"],
+        "id": 136,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -701,8 +1203,15 @@
     },
     {
         "name": "jolteon",
-        "games": ["red", "blue", "yellow"],
-        "types": ["electric"],
+        "id": 135,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -711,8 +1220,15 @@
     },
     {
         "name": "porygon",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal"],
+        "id": 137,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -721,8 +1237,16 @@
     },
     {
         "name": "omastar",
-        "games": ["red", "blue", "yellow"],
-        "types": ["rock", "water"],
+        "id": 139,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "rock",
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -731,8 +1255,16 @@
     },
     {
         "name": "kabutops",
-        "games": ["red", "blue", "yellow"],
-        "types": ["rock", "water"],
+        "id": 141,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "rock",
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -741,8 +1273,16 @@
     },
     {
         "name": "aerodactyl",
-        "games": ["red", "blue", "yellow"],
-        "types": ["rock", "flying"],
+        "id": 142,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "rock",
+            "flying"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -751,8 +1291,15 @@
     },
     {
         "name": "snorlax",
-        "games": ["red", "blue", "yellow"],
-        "types": ["normal"],
+        "id": 143,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -761,8 +1308,16 @@
     },
     {
         "name": "articuno",
-        "games": ["red", "blue", "yellow"],
-        "types": ["flying", "ice"],
+        "id": 144,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "flying",
+            "ice"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -771,8 +1326,16 @@
     },
     {
         "name": "zapdos",
-        "games": ["red", "blue", "yellow"],
-        "types": ["flying", "electric"],
+        "id": 145,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "flying",
+            "electric"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -781,8 +1344,16 @@
     },
     {
         "name": "moltres",
-        "games": ["red", "blue", "yellow"],
-        "types": ["flying", "fire"],
+        "id": 146,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "flying",
+            "fire"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -791,8 +1362,16 @@
     },
     {
         "name": "dragonite",
-        "games": ["red", "blue", "yellow"],
-        "types": ["flying", "dragon"],
+        "id": 149,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "flying",
+            "dragon"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -801,8 +1380,15 @@
     },
     {
         "name": "mew",
-        "games": ["red", "blue", "yellow"],
-        "types": ["psychic"],
+        "id": 151,
+        "games": [
+            "red",
+            "blue",
+            "yellow"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,

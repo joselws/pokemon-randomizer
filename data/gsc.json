@@ -1,8 +1,15 @@
 [
     {
         "name": "meganium",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["grass"],
+        "id": 154,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "grass"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": true,
@@ -11,8 +18,15 @@
     },
     {
         "name": "typhlosion",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fire"],
+        "id": 157,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": true,
@@ -21,8 +35,15 @@
     },
     {
         "name": "feraligatr",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water"],
+        "id": 160,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": true,
@@ -31,8 +52,16 @@
     },
     {
         "name": "pidgeot",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal", "flying"],
+        "id": 18,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -41,8 +70,16 @@
     },
     {
         "name": "fearow",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal", "flying"],
+        "id": 22,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -51,8 +88,16 @@
     },
     {
         "name": "noctowl",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal", "flying"],
+        "id": 164,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -61,8 +106,15 @@
     },
     {
         "name": "raticate",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 20,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -71,8 +123,15 @@
     },
     {
         "name": "furret",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 162,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -81,8 +140,15 @@
     },
     {
         "name": "raichu",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["electric"],
+        "id": 26,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -91,8 +157,16 @@
     },
     {
         "name": "butterfree",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["flying", "bug"],
+        "id": 12,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "flying",
+            "bug"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -101,8 +175,16 @@
     },
     {
         "name": "beedrill",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["bug", "poison"],
+        "id": 15,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "bug",
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -111,8 +193,15 @@
     },
     {
         "name": "ledian",
-        "games": ["silver", "crystal"],
-        "types": ["bug", "flying"],
+        "id": 166,
+        "games": [
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "bug",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -121,8 +210,15 @@
     },
     {
         "name": "ariados",
-        "games": ["gold", "crystal"],
-        "types": ["bug", "poison"],
+        "id": 168,
+        "games": [
+            "gold",
+            "crystal"
+        ],
+        "types": [
+            "bug",
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -131,8 +227,16 @@
     },
     {
         "name": "graveler",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["rock", "ground"],
+        "id": 75,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -141,8 +245,16 @@
     },
     {
         "name": "crobat",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["flying", "poison"],
+        "id": 169,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "flying",
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -151,8 +263,15 @@
     },
     {
         "name": "wigglytuff",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 40,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -161,8 +280,15 @@
     },
     {
         "name": "clefable",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 36,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -171,8 +297,16 @@
     },
     {
         "name": "togetic",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal", "flying"],
+        "id": 176,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -181,8 +315,15 @@
     },
     {
         "name": "sandslash",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["ground"],
+        "id": 28,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "ground"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -191,8 +332,15 @@
     },
     {
         "name": "arbok",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["poison"],
+        "id": 24,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -201,8 +349,15 @@
     },
     {
         "name": "dunsparce",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 206,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -211,8 +366,14 @@
     },
     {
         "name": "ampharos",
-        "games": ["gold", "silver"],
-        "types": ["electric"],
+        "id": 181,
+        "games": [
+            "gold",
+            "silver"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -221,8 +382,16 @@
     },
     {
         "name": "quagsire",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["ground", "water"],
+        "id": 195,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "ground",
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -231,8 +400,16 @@
     },
     {
         "name": "haunter",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["ghost", "poison"],
+        "id": 93,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "ghost",
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -241,8 +418,15 @@
     },
     {
         "name": "unown",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["psychic"],
+        "id": 201,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -251,8 +435,16 @@
     },
     {
         "name": "onix",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["rock", "ground"],
+        "id": 95,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -261,8 +453,16 @@
     },
     {
         "name": "victreebel",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["grass", "poison"],
+        "id": 71,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -271,8 +471,16 @@
     },
     {
         "name": "jumpluff",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["grass", "flying"],
+        "id": 189,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "grass",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -281,8 +489,16 @@
     },
     {
         "name": "parasect",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["bug", "grass"],
+        "id": 47,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "bug",
+            "grass"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -291,8 +507,16 @@
     },
     {
         "name": "poliwrath",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "fighting"],
+        "id": 62,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "fighting"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -301,8 +525,16 @@
     },
     {
         "name": "gyarados",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "flying"],
+        "id": 130,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "flying"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -311,8 +543,15 @@
     },
     {
         "name": "seaking",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water"],
+        "id": 119,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -321,8 +560,16 @@
     },
     {
         "name": "slowbro",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "psychic"],
+        "id": 80,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -331,8 +578,16 @@
     },
     {
         "name": "vileplume",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["grass", "poison"],
+        "id": 45,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -341,8 +596,15 @@
     },
     {
         "name": "bellossom",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["grass"],
+        "id": 182,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "grass"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -351,8 +613,15 @@
     },
     {
         "name": "hypno",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["psychic"],
+        "id": 97,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -361,8 +630,15 @@
     },
     {
         "name": "kadabra",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["psychic"],
+        "id": 64,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -371,8 +647,15 @@
     },
     {
         "name": "ditto",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 132,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -381,8 +664,16 @@
     },
     {
         "name": "forretress",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["bug", "steel"],
+        "id": 205,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "bug",
+            "steel"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -391,8 +682,16 @@
     },
     {
         "name": "nidoqueen",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["poison", "ground"],
+        "id": 31,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "poison",
+            "ground"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -401,8 +700,16 @@
     },
     {
         "name": "nidoking",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["poison", "ground"],
+        "id": 34,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "poison",
+            "ground"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -411,8 +718,16 @@
     },
     {
         "name": "yanma",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["bug", "flying"],
+        "id": 193,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "bug",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -421,8 +736,15 @@
     },
     {
         "name": "sunflora",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["grass"],
+        "id": 192,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "grass"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -431,8 +753,16 @@
     },
     {
         "name": "exeggutor",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["grass", "psychic"],
+        "id": 103,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "grass",
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -441,8 +771,15 @@
     },
     {
         "name": "sudowoodo",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["rock"],
+        "id": 185,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "rock"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -451,8 +788,15 @@
     },
     {
         "name": "wobbuffet",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["psychic"],
+        "id": 202,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -461,8 +805,16 @@
     },
     {
         "name": "venomoth",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["bug", "poison"],
+        "id": 49,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "bug",
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -471,8 +823,16 @@
     },
     {
         "name": "scyther",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["bug", "flying"],
+        "id": 123,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "bug",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -481,8 +841,15 @@
     },
     {
         "name": "pinsir",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["bug"],
+        "id": 127,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "bug"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -491,8 +858,16 @@
     },
     {
         "name": "heracross",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["bug", "fighting"],
+        "id": 214,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "bug",
+            "fighting"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -501,8 +876,15 @@
     },
     {
         "name": "weezing",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["poison"],
+        "id": 110,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -511,8 +893,15 @@
     },
     {
         "name": "muk",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["poison"],
+        "id": 89,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -521,8 +910,16 @@
     },
     {
         "name": "magneton",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["steel", "electric"],
+        "id": 82,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "steel",
+            "electric"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -531,8 +928,15 @@
     },
     {
         "name": "electrode",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["electric"],
+        "id": 101,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -541,8 +945,15 @@
     },
     {
         "name": "aipom",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 190,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -551,8 +962,15 @@
     },
     {
         "name": "granbull",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 210,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -561,8 +979,13 @@
     },
     {
         "name": "ninetales",
-        "games": ["silver"],
-        "types": ["fire"],
+        "id": 38,
+        "games": [
+            "silver"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -571,8 +994,14 @@
     },
     {
         "name": "arcanine",
-        "games": ["gold", "crystal"],
-        "types": ["fire"],
+        "id": 59,
+        "games": [
+            "gold",
+            "crystal"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -581,8 +1010,15 @@
     },
     {
         "name": "stantler",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 234,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -591,8 +1027,15 @@
     },
     {
         "name": "azumarill",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water"],
+        "id": 184,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -601,8 +1044,15 @@
     },
     {
         "name": "dugtrio",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["ground"],
+        "id": 51,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "ground"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -611,8 +1061,13 @@
     },
     {
         "name": "primeape",
-        "games": ["gold"],
-        "types": ["fighting"],
+        "id": 57,
+        "games": [
+            "gold"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -621,8 +1076,14 @@
     },
     {
         "name": "persian",
-        "games": ["silver", "crystal"],
-        "types": ["normal"],
+        "id": 53,
+        "games": [
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -631,8 +1092,15 @@
     },
     {
         "name": "golduck",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water"],
+        "id": 55,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -641,8 +1109,15 @@
     },
     {
         "name": "machoke",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fighting"],
+        "id": 67,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -651,8 +1126,15 @@
     },
     {
         "name": "hitmonlee",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fighting"],
+        "id": 106,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -661,8 +1143,15 @@
     },
     {
         "name": "hitmonchan",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fighting"],
+        "id": 107,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -671,8 +1160,15 @@
     },
     {
         "name": "hitmontop",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fighting"],
+        "id": 237,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -681,8 +1177,15 @@
     },
     {
         "name": "girafarig",
-        "games": ["gold", "silver"],
-        "types": ["normal", "psychic"],
+        "id": 203,
+        "games": [
+            "gold",
+            "silver"
+        ],
+        "types": [
+            "normal",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -691,8 +1194,15 @@
     },
     {
         "name": "tauros",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 128,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -701,8 +1211,15 @@
     },
     {
         "name": "miltank",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 241,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -711,8 +1228,15 @@
     },
     {
         "name": "magmar",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fire"],
+        "id": 126,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -721,8 +1245,16 @@
     },
     {
         "name": "jynx",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["ice", "psychic"],
+        "id": 124,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "ice",
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -731,8 +1263,15 @@
     },
     {
         "name": "electabuzz",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["electric"],
+        "id": 125,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -741,8 +1280,15 @@
     },
     {
         "name": "mr. mime",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["psychic"],
+        "id": 122,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -751,8 +1297,15 @@
     },
     {
         "name": "smeargle",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 235,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -761,8 +1314,16 @@
     },
     {
         "name": "farfetch'd",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["flying", "normal"],
+        "id": 83,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "flying",
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -771,8 +1332,16 @@
     },
     {
         "name": "xatu",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["flying", "psychic"],
+        "id": 178,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "flying",
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -781,8 +1350,16 @@
     },
     {
         "name": "qwilfish",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "poison"],
+        "id": 211,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -791,8 +1368,16 @@
     },
     {
         "name": "tentacruel",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "poison"],
+        "id": 73,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -801,8 +1386,15 @@
     },
     {
         "name": "kingler",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water"],
+        "id": 99,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -811,8 +1403,16 @@
     },
     {
         "name": "shuckle",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["bug", "rock"],
+        "id": 213,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "bug",
+            "rock"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -821,8 +1421,16 @@
     },
     {
         "name": "starmie",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "psychic"],
+        "id": 121,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -831,8 +1439,16 @@
     },
     {
         "name": "cloyster",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "ice"],
+        "id": 91,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "ice"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -841,8 +1457,16 @@
     },
     {
         "name": "corsola",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "rock"],
+        "id": 222,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "rock"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -851,8 +1475,14 @@
     },
     {
         "name": "octillery",
-        "games": ["gold", "silver"],
-        "types": ["water"],
+        "id": 224,
+        "games": [
+            "gold",
+            "silver"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -861,8 +1491,16 @@
     },
     {
         "name": "lanturn",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "electric"],
+        "id": 171,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "electric"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -871,8 +1509,16 @@
     },
     {
         "name": "dewgong",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "ice"],
+        "id": 87,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "ice"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -881,8 +1527,15 @@
     },
     {
         "name": "lickitung",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 108,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -891,8 +1544,15 @@
     },
     {
         "name": "tangela",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["grass"],
+        "id": 114,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "grass"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -901,8 +1561,15 @@
     },
     {
         "name": "vaporeon",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water"],
+        "id": 134,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -911,8 +1578,15 @@
     },
     {
         "name": "flareon",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fire"],
+        "id": 136,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -921,8 +1595,15 @@
     },
     {
         "name": "jolteon",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["electric"],
+        "id": 135,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -931,8 +1612,15 @@
     },
     {
         "name": "espeon",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["psychic"],
+        "id": 196,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -941,8 +1629,15 @@
     },
     {
         "name": "umbreon",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["dark"],
+        "id": 197,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "dark"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -951,8 +1646,15 @@
     },
     {
         "name": "seadra",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water"],
+        "id": 117,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -961,8 +1663,15 @@
     },
     {
         "name": "gligar",
-        "games": ["gold", "crystal"],
-        "types": ["ground", "poison"],
+        "id": 207,
+        "games": [
+            "gold",
+            "crystal"
+        ],
+        "types": [
+            "ground",
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -971,8 +1680,15 @@
     },
     {
         "name": "delibird",
-        "games": ["silver", "crystal"],
-        "types": ["flying", "ice"],
+        "id": 225,
+        "games": [
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "flying",
+            "ice"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -981,8 +1697,16 @@
     },
     {
         "name": "piloswine",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["ice", "ground"],
+        "id": 221,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "ice",
+            "ground"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -991,8 +1715,14 @@
     },
     {
         "name": "ursaring",
-        "games": ["gold", "crystal"],
-        "types": ["normal"],
+        "id": 217,
+        "games": [
+            "gold",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1001,8 +1731,14 @@
     },
     {
         "name": "donphan",
-        "games": ["silver", "crystal"],
-        "types": ["ground"],
+        "id": 232,
+        "games": [
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "ground"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1011,8 +1747,15 @@
     },
     {
         "name": "mantine",
-        "games": ["gold", "crystal"],
-        "types": ["water", "flying"],
+        "id": 226,
+        "games": [
+            "gold",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "flying"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1021,8 +1764,15 @@
     },
     {
         "name": "skarmory",
-        "games": ["silver", "crystal"],
-        "types": ["flying", "steel"],
+        "id": 227,
+        "games": [
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "flying",
+            "steel"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1031,8 +1781,16 @@
     },
     {
         "name": "dodrio",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["flying", "normal"],
+        "id": 85,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "flying",
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1041,8 +1799,15 @@
     },
     {
         "name": "rapidash",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fire"],
+        "id": 78,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1051,8 +1816,15 @@
     },
     {
         "name": "marowak",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["ground"],
+        "id": 105,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "ground"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1061,8 +1833,15 @@
     },
     {
         "name": "kangaskhan",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 115,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1071,8 +1850,16 @@
     },
     {
         "name": "rhydon",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["rock", "ground"],
+        "id": 112,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1081,8 +1868,16 @@
     },
     {
         "name": "murkrow",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["dark", "flying"],
+        "id": 198,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "dark",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1091,8 +1886,16 @@
     },
     {
         "name": "houndoom",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fire", "dark"],
+        "id": 229,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fire",
+            "dark"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1101,8 +1904,16 @@
     },
     {
         "name": "magcargo",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fire", "rock"],
+        "id": 219,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fire",
+            "rock"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1111,8 +1922,16 @@
     },
     {
         "name": "sneasel",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["ice", "dark"],
+        "id": 215,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "ice",
+            "dark"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1121,8 +1940,15 @@
     },
     {
         "name": "misdreavus",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["ghost"],
+        "id": 200,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "ghost"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1131,8 +1957,15 @@
     },
     {
         "name": "porygon",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 137,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1141,8 +1974,15 @@
     },
     {
         "name": "blissey",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 242,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1151,8 +1991,16 @@
     },
     {
         "name": "lapras",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "ice"],
+        "id": 131,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "ice"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1161,8 +2009,16 @@
     },
     {
         "name": "aerodactyl",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["rock", "flying"],
+        "id": 142,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "rock",
+            "flying"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1171,8 +2027,15 @@
     },
     {
         "name": "snorlax",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["normal"],
+        "id": 143,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1181,8 +2044,15 @@
     },
     {
         "name": "raikou",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["electric"],
+        "id": 243,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1191,8 +2061,15 @@
     },
     {
         "name": "entei",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["fire"],
+        "id": 244,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1201,8 +2078,16 @@
     },
     {
         "name": "suicune",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["water", "ice"],
+        "id": 245,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "water",
+            "ice"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1211,8 +2096,16 @@
     },
     {
         "name": "dragonite",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["dragon", "flying"],
+        "id": 149,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "dragon",
+            "flying"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1221,8 +2114,16 @@
     },
     {
         "name": "tyranitar",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["rock", "dark"],
+        "id": 248,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "rock",
+            "dark"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1231,8 +2132,16 @@
     },
     {
         "name": "lugia",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["flying", "psychic"],
+        "id": 249,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "flying",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1241,8 +2150,16 @@
     },
     {
         "name": "ho-oh",
-        "games": ["gold", "silver", "crystal"],
-        "types": ["flying", "fire"],
+        "id": 250,
+        "games": [
+            "gold",
+            "silver",
+            "crystal"
+        ],
+        "types": [
+            "flying",
+            "fire"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,

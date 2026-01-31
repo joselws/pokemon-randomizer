@@ -15,6 +15,7 @@ mainForm.addEventListener("submit", async (event) => {
     event.preventDefault();
     const pokemonTeam = await getRandomPokemonTeam();
     populatePokemonCards(pokemonTeam);
+    displayTeamStats(pokemonTeam);
 });
 
 function populatePokemonCards(pokemonTeam) {
@@ -25,14 +26,58 @@ function populatePokemonCards(pokemonTeam) {
     });
 }
 
-function createPokemonCard(pokemonName) {
-    const div = document.createElement("div");
-    div.setAttribute("class", "pokemon-card");
-    const p = document.createElement("p");
-    p.setAttribute("class", "pokemon-name");
-    p.innerHTML = capitalizeString(pokemonName);
-    div.appendChild(p);
-    return div;
+function createPokemonCard(pokemon) {
+    const card = document.createElement("div");
+    card.setAttribute("class", "pokemon-card");
+
+    // Card Header with Name and Number
+    const header = document.createElement("div");
+    header.setAttribute("class", "pokemon-card-header");
+
+    const nameElement = document.createElement("p");
+    nameElement.setAttribute("class", "pokemon-name");
+    nameElement.textContent = capitalizeString(pokemon.name);
+
+    header.appendChild(nameElement);
+    card.appendChild(header);
+
+    // Pokemon Image Container
+    const imageContainer = document.createElement("div");
+    imageContainer.setAttribute("class", "pokemon-image-container");
+
+    const image = document.createElement("img");
+    image.setAttribute("class", "pokemon-image loading");
+    image.setAttribute("alt", pokemon.name);
+
+    // Use PokeAPI for sprites
+    image.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png`;
+
+    // Fallback to default sprite if official artwork fails
+    image.onerror = () => {
+        image.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`;
+    };
+
+    image.onload = () => {
+        image.classList.remove("loading");
+    };
+
+    imageContainer.appendChild(image);
+    card.appendChild(imageContainer);
+
+    // Type Badges
+    const typesContainer = document.createElement("div");
+    typesContainer.setAttribute("class", "pokemon-types");
+
+    pokemon.types.forEach(type => {
+        const typeBadge = document.createElement("span");
+        typeBadge.setAttribute("class", `type-badge type-${type}`);
+        typeBadge.textContent = capitalizeString(type);
+        typesContainer.appendChild(typeBadge);
+    });
+
+    card.appendChild(typesContainer);
+
+    return card;
 }
 
 function emptyPokemonCards() {
@@ -49,7 +94,7 @@ async function getRandomPokemonTeam() {
         myTeam.filterByType(typeSelect.value);
     }
     myTeam.selectRandomTeam(Number(teamSize.value));
-    return myTeam.selectedPokemon.map(pokemon => pokemon.name);
+    return myTeam.selectedPokemon;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -125,4 +170,89 @@ function isMonotypeChallenge() {
         return true;
     }
     return false;
+}
+
+function displayTeamStats(team) {
+    // Remove existing stats section if present
+    const existingStats = document.querySelector("#team-stats");
+    if (existingStats) {
+        existingStats.remove();
+    }
+
+    // Create team stats section
+    const statsSection = document.createElement("section");
+    statsSection.setAttribute("id", "team-stats");
+
+    const heading = document.createElement("h2");
+    heading.textContent = "Team Statistics";
+    statsSection.appendChild(heading);
+
+    const statsGrid = document.createElement("div");
+    statsGrid.setAttribute("class", "stats-grid");
+
+    // Team Size
+    const teamSizeStat = createStatItem("Team Size", team.length);
+    statsGrid.appendChild(teamSizeStat);
+
+    // Type Coverage
+    const allTypes = new Set();
+    team.forEach(pokemon => {
+        pokemon.types.forEach(type => allTypes.add(type));
+    });
+    const typeCoverageStat = createStatItem("Type Coverage", allTypes.size);
+    statsGrid.appendChild(typeCoverageStat);
+
+    // Good Rating Count
+    const goodPokemon = team.filter(p => p.rating === "good").length;
+    const difficultyRating = goodPokemon >= team.length * 0.7 ? "High" :
+                            goodPokemon >= team.length * 0.4 ? "Medium" : "Low";
+    const difficultyStat = createStatItem("Team Quality", difficultyRating);
+    statsGrid.appendChild(difficultyStat);
+
+    statsSection.appendChild(statsGrid);
+
+    // Type breakdown
+    const typeBreakdown = document.createElement("div");
+    typeBreakdown.setAttribute("class", "stat-item");
+    typeBreakdown.style.gridColumn = "1 / -1";
+
+    const typeLabel = document.createElement("div");
+    typeLabel.setAttribute("class", "stat-label");
+    typeLabel.textContent = "Types in Team";
+    typeBreakdown.appendChild(typeLabel);
+
+    const typeCoverage = document.createElement("div");
+    typeCoverage.setAttribute("class", "type-coverage");
+
+    Array.from(allTypes).sort().forEach(type => {
+        const typeBadge = document.createElement("span");
+        typeBadge.setAttribute("class", `type-badge type-${type}`);
+        typeBadge.textContent = capitalizeString(type);
+        typeCoverage.appendChild(typeBadge);
+    });
+
+    typeBreakdown.appendChild(typeCoverage);
+    statsGrid.appendChild(typeBreakdown);
+
+    // Insert stats before pokemon cards
+    const pokemonCardsSection = document.querySelector("#pokemon-cards");
+    pokemonCardsSection.parentNode.insertBefore(statsSection, pokemonCardsSection);
+}
+
+function createStatItem(label, value) {
+    const statItem = document.createElement("div");
+    statItem.setAttribute("class", "stat-item");
+
+    const statLabel = document.createElement("div");
+    statLabel.setAttribute("class", "stat-label");
+    statLabel.textContent = label;
+
+    const statValue = document.createElement("div");
+    statValue.setAttribute("class", "stat-value");
+    statValue.textContent = value;
+
+    statItem.appendChild(statLabel);
+    statItem.appendChild(statValue);
+
+    return statItem;
 }

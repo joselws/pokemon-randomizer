@@ -1,8 +1,15 @@
 [
     {
         "name": "sceptile",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["grass"],
+        "id": 254,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "grass"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": true,
@@ -11,8 +18,16 @@
     },
     {
         "name": "blaziken",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["fire", "fighting"],
+        "id": 257,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "fire",
+            "fighting"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": true,
@@ -21,8 +36,16 @@
     },
     {
         "name": "swampert",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water", "ground"],
+        "id": 260,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water",
+            "ground"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": true,
@@ -31,8 +54,15 @@
     },
     {
         "name": "mightyena",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["dark"],
+        "id": 262,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "dark"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -41,8 +71,15 @@
     },
     {
         "name": "linoone",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal"],
+        "id": 264,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -51,8 +88,16 @@
     },
     {
         "name": "beautifly",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["bug", "flying"],
+        "id": 267,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "bug",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -61,8 +106,16 @@
     },
     {
         "name": "dustox",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["bug", "poison"],
+        "id": 269,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "bug",
+            "poison"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -71,8 +124,15 @@
     },
     {
         "name": "ludicolo",
-        "games": ["sapphire", "emerald"],
-        "types": ["grass", "water"],
+        "id": 272,
+        "games": [
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "grass",
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -81,8 +141,15 @@
     },
     {
         "name": "shiftry",
-        "games": ["ruby", "emerald"],
-        "types": ["grass", "dark"],
+        "id": 275,
+        "games": [
+            "ruby",
+            "emerald"
+        ],
+        "types": [
+            "grass",
+            "dark"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -91,8 +158,16 @@
     },
     {
         "name": "swellow",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["flying", "normal"],
+        "id": 277,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "flying",
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -101,8 +176,16 @@
     },
     {
         "name": "pelipper",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["flying", "water"],
+        "id": 279,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "flying",
+            "water"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -111,8 +194,15 @@
     },
     {
         "name": "gardevoir",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["psychic"],
+        "id": 282,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -121,8 +211,15 @@
     },
     {
         "name": "masquerain",
-        "games": ["ruby", "sapphire"],
-        "types": ["bug", "flying"],
+        "id": 284,
+        "games": [
+            "ruby",
+            "sapphire"
+        ],
+        "types": [
+            "bug",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -131,8 +228,16 @@
     },
     {
         "name": "breloom",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["grass", "fighting"],
+        "id": 286,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "grass",
+            "fighting"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -141,8 +246,15 @@
     },
     {
         "name": "vigoroth",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal"],
+        "id": 288,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -151,8 +263,15 @@
     },
     {
         "name": "slaking",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal"],
+        "id": 289,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -161,8 +280,15 @@
     },
     {
         "name": "kadabra",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["psychic"],
+        "id": 64,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -171,8 +297,16 @@
     },
     {
         "name": "ninjask",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["bug", "flying"],
+        "id": 291,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "bug",
+            "flying"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -181,8 +315,16 @@
     },
     {
         "name": "shedinja",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["bug", "ghost"],
+        "id": 292,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "bug",
+            "ghost"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -191,8 +333,15 @@
     },
     {
         "name": "exploud",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal"],
+        "id": 295,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -201,8 +350,15 @@
     },
     {
         "name": "hariyama",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["fighting"],
+        "id": 297,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -211,8 +367,15 @@
     },
     {
         "name": "seaking",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water"],
+        "id": 119,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -221,8 +384,16 @@
     },
     {
         "name": "gyarados",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water", "flying"],
+        "id": 130,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water",
+            "flying"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -231,8 +402,15 @@
     },
     {
         "name": "azumarill",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water"],
+        "id": 184,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -241,8 +419,16 @@
     },
     {
         "name": "graveler",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["rock", "ground"],
+        "id": 75,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "rock",
+            "ground"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -251,8 +437,15 @@
     },
     {
         "name": "nosepass",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["rock"],
+        "id": 299,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "rock"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -261,8 +454,15 @@
     },
     {
         "name": "delcatty",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal"],
+        "id": 301,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -271,8 +471,16 @@
     },
     {
         "name": "crobat",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["flying", "poison"],
+        "id": 169,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "flying",
+            "poison"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -281,8 +489,16 @@
     },
     {
         "name": "tentacruel",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["poison", "water"],
+        "id": 73,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "poison",
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -291,8 +507,15 @@
     },
     {
         "name": "sableye",
-        "games": ["sapphire", "emerald"],
-        "types": ["dark", "ghost"],
+        "id": 302,
+        "games": [
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "dark",
+            "ghost"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -301,8 +524,16 @@
     },
     {
         "name": "aggron",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["steel", "rock"],
+        "id": 306,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "steel",
+            "rock"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -311,8 +542,14 @@
     },
     {
         "name": "mawile",
-        "games": ["ruby", "emerald"],
-        "types": ["steel"],
+        "id": 303,
+        "games": [
+            "ruby",
+            "emerald"
+        ],
+        "types": [
+            "steel"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -321,8 +558,15 @@
     },
     {
         "name": "machoke",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["fighting"],
+        "id": 67,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "fighting"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -331,8 +575,15 @@
     },
     {
         "name": "medicham",
-        "games": ["ruby", "sapphire"],
-        "types": ["fighting", "psychic"],
+        "id": 308,
+        "games": [
+            "ruby",
+            "sapphire"
+        ],
+        "types": [
+            "fighting",
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -341,8 +592,15 @@
     },
     {
         "name": "manectric",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["electric"],
+        "id": 310,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -351,8 +609,15 @@
     },
     {
         "name": "minun",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["electric"],
+        "id": 312,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -361,8 +626,15 @@
     },
     {
         "name": "plusle",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["electric"],
+        "id": 311,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "bad",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -371,8 +643,16 @@
     },
     {
         "name": "magneton",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["steel", "electric"],
+        "id": 82,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "steel",
+            "electric"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -381,8 +661,15 @@
     },
     {
         "name": "electrode",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["electric"],
+        "id": 101,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -391,8 +678,15 @@
     },
     {
         "name": "volbeat",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["bug"],
+        "id": 313,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "bug"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -401,8 +695,15 @@
     },
     {
         "name": "illumise",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["bug"],
+        "id": 314,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "bug"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -411,8 +712,16 @@
     },
     {
         "name": "vileplume",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["grass", "poison"],
+        "id": 45,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -421,8 +730,15 @@
     },
     {
         "name": "bellossom",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["grass"],
+        "id": 182,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "grass"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -431,8 +747,16 @@
     },
     {
         "name": "dodrio",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal", "flying"],
+        "id": 85,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal",
+            "flying"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -441,8 +765,15 @@
     },
     {
         "name": "roselia",
-        "games": ["ruby", "sapphire"],
-        "types": ["grass", "poison"],
+        "id": 315,
+        "games": [
+            "ruby",
+            "sapphire"
+        ],
+        "types": [
+            "grass",
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -451,8 +782,15 @@
     },
     {
         "name": "swalot",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["poison"],
+        "id": 317,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -461,8 +799,16 @@
     },
     {
         "name": "sharpedo",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water", "dark"],
+        "id": 319,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water",
+            "dark"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -471,8 +817,15 @@
     },
     {
         "name": "wailord",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water"],
+        "id": 321,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -481,8 +834,16 @@
     },
     {
         "name": "camerupt",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ground", "fire"],
+        "id": 323,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ground",
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -491,8 +852,16 @@
     },
     {
         "name": "magcargo",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["fire", "rock"],
+        "id": 219,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "fire",
+            "rock"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -501,8 +870,15 @@
     },
     {
         "name": "torkoal",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["fire"],
+        "id": 324,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -511,8 +887,15 @@
     },
     {
         "name": "muk",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["poison"],
+        "id": 89,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -521,8 +904,15 @@
     },
     {
         "name": "weezing",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["poison"],
+        "id": 110,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -531,8 +921,15 @@
     },
     {
         "name": "grumpig",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["psychic"],
+        "id": 326,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -541,8 +938,15 @@
     },
     {
         "name": "sandslash",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ground"],
+        "id": 28,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ground"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -551,8 +955,15 @@
     },
     {
         "name": "spinda",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal"],
+        "id": 327,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -561,8 +972,16 @@
     },
     {
         "name": "skarmory",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["flying", "steel"],
+        "id": 227,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "flying",
+            "steel"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -571,8 +990,16 @@
     },
     {
         "name": "flygon",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["dragon", "ground"],
+        "id": 330,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "dragon",
+            "ground"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -581,8 +1008,16 @@
     },
     {
         "name": "cacturne",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["dark", "grass"],
+        "id": 332,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "dark",
+            "grass"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -591,8 +1026,16 @@
     },
     {
         "name": "altaria",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["dragon", "flying"],
+        "id": 334,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "dragon",
+            "flying"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -601,8 +1044,13 @@
     },
     {
         "name": "zangoose",
-        "games": ["ruby"],
-        "types": ["normal"],
+        "id": 335,
+        "games": [
+            "ruby"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -611,8 +1059,14 @@
     },
     {
         "name": "seviper",
-        "games": ["sapphire", "emerald"],
-        "types": ["poison"],
+        "id": 336,
+        "games": [
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "poison"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -621,8 +1075,14 @@
     },
     {
         "name": "lunatone",
-        "games": ["sapphire"],
-        "types": ["psychic", "rock"],
+        "id": 337,
+        "games": [
+            "sapphire"
+        ],
+        "types": [
+            "psychic",
+            "rock"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -631,8 +1091,15 @@
     },
     {
         "name": "solrock",
-        "games": ["ruby", "emerald"],
-        "types": ["psychic", "rock"],
+        "id": 338,
+        "games": [
+            "ruby",
+            "emerald"
+        ],
+        "types": [
+            "psychic",
+            "rock"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -641,8 +1108,16 @@
     },
     {
         "name": "whiscash",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ground", "water"],
+        "id": 340,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ground",
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -651,8 +1126,16 @@
     },
     {
         "name": "crawdaunt",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["dark", "water"],
+        "id": 342,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "dark",
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -661,8 +1144,16 @@
     },
     {
         "name": "claydol",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ground", "psychic"],
+        "id": 344,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ground",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -671,8 +1162,16 @@
     },
     {
         "name": "cradily",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["rock", "grass"],
+        "id": 346,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "rock",
+            "grass"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -681,8 +1180,16 @@
     },
     {
         "name": "armaldo",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["rock", "bug"],
+        "id": 348,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "rock",
+            "bug"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -691,8 +1198,15 @@
     },
     {
         "name": "wigglytuff",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal"],
+        "id": 40,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -701,8 +1215,15 @@
     },
     {
         "name": "milotic",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water"],
+        "id": 350,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -711,8 +1232,15 @@
     },
     {
         "name": "castform",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal"],
+        "id": 351,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -721,8 +1249,16 @@
     },
     {
         "name": "starmie",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water", "psychic"],
+        "id": 121,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -731,8 +1267,15 @@
     },
     {
         "name": "kecleon",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal"],
+        "id": 352,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -741,8 +1284,15 @@
     },
     {
         "name": "banette",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ghost"],
+        "id": 354,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ghost"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -751,8 +1301,15 @@
     },
     {
         "name": "dusclops",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ghost"],
+        "id": 356,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ghost"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -761,8 +1318,16 @@
     },
     {
         "name": "tropius",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["flying", "grass"],
+        "id": 357,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "flying",
+            "grass"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -771,8 +1336,15 @@
     },
     {
         "name": "chimecho",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["psychic"],
+        "id": 358,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -781,8 +1353,15 @@
     },
     {
         "name": "absol",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["dark"],
+        "id": 359,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "dark"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -791,8 +1370,15 @@
     },
     {
         "name": "ninetales",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["fire"],
+        "id": 38,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "fire"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -801,8 +1387,15 @@
     },
     {
         "name": "raichu",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["electric"],
+        "id": 26,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "electric"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -811,8 +1404,15 @@
     },
     {
         "name": "golduck",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water"],
+        "id": 55,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -821,8 +1421,15 @@
     },
     {
         "name": "wobbuffet",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["psychic"],
+        "id": 202,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -831,8 +1438,16 @@
     },
     {
         "name": "xatu",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["flying", "psychic"],
+        "id": 178,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "flying",
+            "psychic"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -841,8 +1456,16 @@
     },
     {
         "name": "girafarig",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["normal", "psychic"],
+        "id": 203,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "normal",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -851,8 +1474,15 @@
     },
     {
         "name": "donphan",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ground"],
+        "id": 232,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ground"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -861,8 +1491,15 @@
     },
     {
         "name": "pinsir",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["bug"],
+        "id": 127,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "bug"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -871,8 +1508,16 @@
     },
     {
         "name": "heracross",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["bug", "fighting"],
+        "id": 214,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "bug",
+            "fighting"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -881,8 +1526,16 @@
     },
     {
         "name": "rhydon",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ground", "rock"],
+        "id": 112,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ground",
+            "rock"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -891,8 +1544,16 @@
     },
     {
         "name": "glalie",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ice", "dark"],
+        "id": 362,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ice",
+            "dark"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -901,8 +1562,16 @@
     },
     {
         "name": "walrein",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ice", "water"],
+        "id": 365,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ice",
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -911,8 +1580,15 @@
     },
     {
         "name": "clamperl",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water"],
+        "id": 366,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -921,8 +1597,11 @@
     },
     {
         "name": "huntail",
+        "id": 367,
         "games": [],
-        "types": ["water"],
+        "types": [
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -931,8 +1610,11 @@
     },
     {
         "name": "gorebyss",
+        "id": 368,
         "games": [],
-        "types": ["water"],
+        "types": [
+            "water"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -941,8 +1623,16 @@
     },
     {
         "name": "relicanth",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water", "rock"],
+        "id": 369,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water",
+            "rock"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -951,8 +1641,16 @@
     },
     {
         "name": "corsola",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["rock", "water"],
+        "id": 222,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "rock",
+            "water"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -961,8 +1659,16 @@
     },
     {
         "name": "lanturn",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water", "electric"],
+        "id": 171,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water",
+            "electric"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -971,8 +1677,15 @@
     },
     {
         "name": "luvdisc",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water"],
+        "id": 370,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "bad",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -981,8 +1694,15 @@
     },
     {
         "name": "seadra",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["water"],
+        "id": 117,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "water"
+        ],
         "rating": "normal",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -991,8 +1711,12 @@
     },
     {
         "name": "salamence",
+        "id": 373,
         "games": [],
-        "types": ["flying", "dragon"],
+        "types": [
+            "flying",
+            "dragon"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1001,8 +1725,12 @@
     },
     {
         "name": "metagross",
+        "id": 376,
         "games": [],
-        "types": ["steel", "psychic"],
+        "types": [
+            "steel",
+            "psychic"
+        ],
         "rating": "good",
         "isPossibleStarter": true,
         "isGameStarter": false,
@@ -1011,8 +1739,15 @@
     },
     {
         "name": "regirock",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["rock"],
+        "id": 377,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "rock"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1021,8 +1756,15 @@
     },
     {
         "name": "regice",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["ice"],
+        "id": 378,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "ice"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
@@ -1031,8 +1773,15 @@
     },
     {
         "name": "registeel",
-        "games": ["ruby", "sapphire", "emerald"],
-        "types": ["steel"],
+        "id": 379,
+        "games": [
+            "ruby",
+            "sapphire",
+            "emerald"
+        ],
+        "types": [
+            "steel"
+        ],
         "rating": "good",
         "isPossibleStarter": false,
         "isGameStarter": false,
