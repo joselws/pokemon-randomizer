@@ -1,16 +1,16 @@
 /* Pokemon Randomizer - Modern UI Styles */
 
 :root {
-    --primary-color: #FFCB05;
-    --secondary-color: #3D7DCA;
-    --accent-color: #FF0000;
-    --bg-gradient-start: #1a1a2e;
-    --bg-gradient-end: #16213e;
+    --primary-color: #EE1515;
+    --secondary-color: #ffffff;
+    --accent-color: #2C2C2C;
+    --bg-gradient-start: #f5f5f5;
+    --bg-gradient-end: #e8e8e8;
     --card-bg: #ffffff;
     --text-dark: #2d2d2d;
     --text-light: #ffffff;
-    --shadow: rgba(0, 0, 0, 0.2);
-    --shadow-hover: rgba(0, 0, 0, 0.3);
+    --shadow: rgba(0, 0, 0, 0.1);
+    --shadow-hover: rgba(0, 0, 0, 0.2);
     --border-radius: 16px;
     --transition: all 0.3s ease;
 }
@@ -40,8 +40,8 @@ h1 {
     font-size: 3.5rem;
     color: var(--primary-color);
     text-shadow:
-        3px 3px 0 var(--secondary-color),
-        6px 6px 0 var(--accent-color);
+        2px 2px 0 var(--secondary-color),
+        4px 4px 0 var(--accent-color);
     margin-bottom: 40px;
     font-weight: 900;
     letter-spacing: 2px;
@@ -50,12 +50,13 @@ h1 {
 
 /* Form Styling */
 form {
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--card-bg);
     padding: 30px;
     border-radius: var(--border-radius);
     box-shadow: 0 10px 30px var(--shadow);
     margin-bottom: 40px;
     animation: fadeIn 0.8s ease;
+    border: 3px solid var(--primary-color);
 }
 
 .form-section {
@@ -92,13 +93,13 @@ select, input[type="number"] {
 }
 
 select:hover, input[type="number"]:hover {
-    border-color: var(--secondary-color);
+    border-color: var(--primary-color);
 }
 
 select:focus, input[type="number"]:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(255, 203, 5, 0.2);
+    box-shadow: 0 0 0 3px rgba(238, 21, 21, 0.2);
 }
 
 /* Radio Button Styling */
@@ -112,7 +113,7 @@ input[type="radio"] {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    accent-color: var(--secondary-color);
+    accent-color: var(--primary-color);
 }
 
 input[type="radio"] + label {
@@ -127,9 +128,9 @@ input[type="radio"] + label {
 }
 
 input[type="submit"] {
-    background: linear-gradient(135deg, var(--accent-color) 0%, #cc0000 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, #cc0000 100%);
     color: var(--text-light);
-    border: none;
+    border: 3px solid var(--secondary-color);
     padding: 16px 32px;
     font-size: 1.2rem;
     font-weight: 700;
@@ -138,13 +139,14 @@ input[type="submit"] {
     transition: var(--transition);
     text-transform: uppercase;
     letter-spacing: 1px;
-    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(238, 21, 21, 0.3);
     width: 100%;
 }
 
 input[type="submit"]:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
+    box-shadow: 0 6px 20px rgba(238, 21, 21, 0.5);
+    background: linear-gradient(135deg, #cc0000 0%, var(--primary-color) 100%);
 }
 
 input[type="submit"]:active {
@@ -176,6 +178,7 @@ input[type="submit"]:active {
     position: relative;
     overflow: hidden;
     animation: scaleIn 0.4s ease;
+    border: 2px solid #e0e0e0;
 }
 
 .pokemon-card::before {
@@ -184,8 +187,8 @@ input[type="submit"]:active {
     top: 0;
     left: 0;
     right: 0;
-    height: 8px;
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color), var(--accent-color));
+    height: 6px;
+    background: var(--primary-color);
 }
 
 .pokemon-card:hover {
@@ -282,16 +285,17 @@ input[type="submit"]:active {
 
 /* Team Stats Section */
 #team-stats {
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--card-bg);
     padding: 25px;
     border-radius: var(--border-radius);
     box-shadow: 0 8px 20px var(--shadow);
     margin-bottom: 30px;
     animation: fadeIn 0.8s ease;
+    border: 3px solid var(--primary-color);
 }
 
 #team-stats h2 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     margin-bottom: 15px;
     font-size: 1.8rem;
     border-bottom: 3px solid var(--primary-color);
@@ -309,7 +313,7 @@ input[type="submit"]:active {
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
     padding: 15px;
     border-radius: 8px;
-    border-left: 4px solid var(--secondary-color);
+    border-left: 4px solid var(--primary-color);
 }
 
 .stat-label {
@@ -345,6 +349,7 @@ input[type="submit"]:active {
     padding: 40px;
     font-size: 1.2rem;
     color: var(--primary-color);
+    font-weight: 600;
 }
 
 /* Animations */
@@ -422,8 +427,8 @@ input[type="submit"]:active {
     h1 {
         font-size: 2rem;
         text-shadow:
-            2px 2px 0 var(--secondary-color),
-            4px 4px 0 var(--accent-color);
+            1px 1px 0 var(--secondary-color),
+            3px 3px 0 var(--accent-color);
     }
 
     form {
