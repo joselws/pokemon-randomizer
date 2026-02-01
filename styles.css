@@ -405,8 +405,13 @@ input[type="submit"]:active {
     padding: 6px 20px;
     border-radius: 20px;
     color: white;
-    background: linear-gradient(135deg, var(--primary-color), #cc0000);
 }
+
+.difficulty-very-easy { background: linear-gradient(135deg, #6890F0, #5070d0); }
+.difficulty-easy { background: linear-gradient(135deg, #78C850, #60a840); }
+.difficulty-normal { background: linear-gradient(135deg, #F8D030, #e0b820); }
+.difficulty-hard { background: linear-gradient(135deg, #F08030, #d66820); }
+.difficulty-very-hard { background: linear-gradient(135deg, var(--primary-color), #cc0000); }
 
 /* Loading State */
 .loading-spinner {

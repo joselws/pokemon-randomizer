@@ -181,11 +181,11 @@ function calculateDifficultyScore(pokemonTeam) {
 }
 
 function getDifficultyLabel(score) {
-    if (score <= 2) return "Very Easy";
-    if (score <= 4) return "Easy";
-    if (score <= 6) return "Normal";
-    if (score <= 8) return "Hard";
-    return "Very Hard";
+    if (score <= 2) return { label: "Very Easy", className: "difficulty-very-easy" };
+    if (score <= 4) return { label: "Easy", className: "difficulty-easy" };
+    if (score <= 6) return { label: "Normal", className: "difficulty-normal" };
+    if (score <= 8) return { label: "Hard", className: "difficulty-hard" };
+    return { label: "Very Hard", className: "difficulty-very-hard" };
 }
 
 function displayExpectedDifficulty(pokemonTeam) {
@@ -194,9 +194,10 @@ function displayExpectedDifficulty(pokemonTeam) {
     const labelElement = document.querySelector("#difficulty-label");
 
     const score = calculateDifficultyScore(pokemonTeam);
-    const label = getDifficultyLabel(score);
+    const { label, className } = getDifficultyLabel(score);
 
     scoreElement.textContent = score;
     labelElement.textContent = label;
+    labelElement.className = "difficulty-label " + className;
     section.style.display = "block";
 }
