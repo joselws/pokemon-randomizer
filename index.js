@@ -15,6 +15,7 @@ mainForm.addEventListener("submit", async (event) => {
     event.preventDefault();
     const pokemonTeam = await getRandomPokemonTeam();
     populatePokemonCards(pokemonTeam);
+    displayExpectedDifficulty(pokemonTeam);
 });
 
 function populatePokemonCards(pokemonTeam) {
@@ -169,4 +170,33 @@ function isMonotypeChallenge() {
         return true;
     }
     return false;
+}
+
+function calculateDifficultyScore(pokemonTeam) {
+    const ratingScores = { good: 1, normal: 2, bad: 3 };
+    const total = pokemonTeam.reduce((sum, pokemon) => sum + ratingScores[pokemon.rating], 0);
+    const average = total / pokemonTeam.length;
+    const scaled = (average - 1) * 4.5 + 1;
+    return Math.round(scaled);
+}
+
+function getDifficultyLabel(score) {
+    if (score <= 2) return "Very Easy";
+    if (score <= 4) return "Easy";
+    if (score <= 6) return "Normal";
+    if (score <= 8) return "Hard";
+    return "Very Hard";
+}
+
+function displayExpectedDifficulty(pokemonTeam) {
+    const section = document.querySelector("#expected-difficulty");
+    const scoreElement = document.querySelector("#difficulty-score");
+    const labelElement = document.querySelector("#difficulty-label");
+
+    const score = calculateDifficultyScore(pokemonTeam);
+    const label = getDifficultyLabel(score);
+
+    scoreElement.textContent = score;
+    labelElement.textContent = label;
+    section.style.display = "block";
 }

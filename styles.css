@@ -352,6 +352,62 @@ input[type="submit"]:active {
     padding: 4px 12px;
 }
 
+/* Expected Difficulty Section */
+#expected-difficulty {
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 8px 20px var(--shadow);
+    margin-bottom: 30px;
+    animation: fadeIn 0.8s ease;
+    border: 3px solid var(--primary-color);
+    text-align: center;
+}
+
+#expected-difficulty h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.difficulty-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.difficulty-score-container {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.difficulty-score-number {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--text-dark);
+}
+
+.difficulty-score-max {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #888;
+}
+
+.difficulty-label {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(135deg, var(--primary-color), #cc0000);
+}
+
 /* Loading State */
 .loading-spinner {
     text-align: center;
