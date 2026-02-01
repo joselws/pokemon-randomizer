@@ -199,5 +199,5 @@ function displayExpectedDifficulty(pokemonTeam) {
     scoreElement.textContent = score;
     labelElement.textContent = label;
     labelElement.className = "difficulty-label " + className;
-    section.style.display = "block";
+    section.style.display = "flex";
 }
