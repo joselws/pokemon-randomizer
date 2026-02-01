@@ -172,7 +172,7 @@ input[type="submit"]:active {
 /* Pokemon Cards Container */
 #pokemon-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 16px;
     margin-bottom: 24px;
     animation: fadeIn 0.8s ease;
@@ -209,7 +209,7 @@ input[type="submit"]:active {
 
 .pokemon-card-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 8px;
 }

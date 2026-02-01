@@ -26,11 +26,6 @@ export class PokemonRandomizer {
     }
 
     filterByDifficulty(difficulty) {
-        if (difficulty === "random") {
-            const options = ["veryEasy", "easy", "normal", "hard", "veryHard"]
-            const randomIndex = Math.floor(Math.random() * options.length);
-            difficulty = options[randomIndex];
-        }
         switch (difficulty) {
             case "veryEasy":
                 this.availablePokemon = this.availablePokemon.filter(pokemon => {
@@ -43,6 +38,9 @@ export class PokemonRandomizer {
                 });
                 break;
             case "normal":
+                this.availablePokemon = this.availablePokemon.filter(pokemon => {
+                    return pokemon.rating == "normal"
+                });
                 break;
             case "hard":
                 this.availablePokemon = this.availablePokemon.filter(pokemon => {
@@ -53,6 +51,8 @@ export class PokemonRandomizer {
                 this.availablePokemon = this.availablePokemon.filter(pokemon => {
                     return pokemon.rating == "bad"
                 });
+                break;
+            case "random":
                 break;
         }
     }
