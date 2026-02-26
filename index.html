@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=IBM+Plex+Mono:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Randomizer</title>
+    <title>Battle Terminal — Pokémon Randomizer</title>
 </head>
 <body>
     <main>
 
-        <h1>Pokémon Randomizer</h1>
-        <p class="description">Generate a random Pokémon team for your next adventure. Choose your game, difficulty, and optional monotype challenge to get started!</p>
+        <header class="site-header">
+            <div class="header-eyebrow">// BATTLE STRATEGY TERMINAL v1.0</div>
+            <h1>Pokémon<br>Randomizer</h1>
+            <p class="description">Generate a random Pokémon team for your next adventure. Choose your game, difficulty, and optional monotype challenge to get started.</p>
+        </header>
+
         <form id="main-form">
             <div class="form-section" id="select-game-section">
                 <label>Select game</label>
@@ -20,12 +27,12 @@
                     <option class="game-select-option" value="rse">Ruby, Sapphire, Emerald</option>
                 </select>
             </div>
-    
+
             <div class="form-section" id="select-version-section">
                 <label for="version-select">Select version</label>
                 <select id="version-select"></select>
             </div>
-    
+
             <div class="form-section" id="select-difficulty-section">
                 <label for="difficulty-select">Select difficulty</label>
                 <select id="difficulty-select">
@@ -37,15 +44,17 @@
                     <option class="difficulty-select-option" value="veryHard">Very Hard</option>
                 </select>
             </div>
-            
+
             <div class="form-section" id="want-monotype-section">
                 <p>Want a monotype challenge?</p>
-                <input id="radio-yes" type="radio" name="monotype" value="yes">
-                <label for="radio-yes">Yes</label>
-                <input id="radio-no" type="radio" name="monotype" value="no" checked>
-                <label for="radio-no">No</label>
+                <div class="radio-group">
+                    <input id="radio-yes" type="radio" name="monotype" value="yes">
+                    <label for="radio-yes">Yes</label>
+                    <input id="radio-no" type="radio" name="monotype" value="no" checked>
+                    <label for="radio-no">No</label>
+                </div>
             </div>
-    
+
             <div class="form-section" id="select-type-section">
                 <label for="type-select">Select Pokémon Type</label>
                 <select id="type-select">
@@ -69,17 +78,19 @@
                     <option class="type-select-option" value="random">Random</option>
                 </select>
             </div>
-    
+
             <div class="form-section" id="select-team-size-section">
                 <label for="team-size">Select team size</label>
                 <input id="team-size" type="number" min="1" max="6" value="3">
             </div>
-    
+
             <div class="form-section" id="submit">
                 <input id="submit" type="submit" value="Get team!">
             </div>
         </form>
+
         <section id="pokemon-cards"></section>
+
         <section id="expected-difficulty" style="display: none;">
             <h2>Expected Difficulty</h2>
             <div class="difficulty-content">
@@ -90,6 +101,7 @@
                 <p class="difficulty-label" id="difficulty-label"></p>
             </div>
         </section>
+
     </main>
     <script src="index.js" type="module"></script>
 </body>
